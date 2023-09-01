@@ -12,3 +12,8 @@
   </header>
 </hy-drawer>
 <hr class="sr-only" hidden />
+<div class="sidebar-box">
+        {% if author.picture %}
+          {% include srcset-img.html class="me" img=author.picture alt=author.name %}
+        {% endif %}
+</div>
