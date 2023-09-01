@@ -1,10 +1,10 @@
 ---
 title: about
-layout: single
 permalink: /about/
+layout: single
 ---
 
-# 소개글
+## 소개글
 
 * * *
 <center>
