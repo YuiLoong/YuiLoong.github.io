@@ -1,34 +1,33 @@
 # The primary author of this blog.
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
-author1:
+author1: Yui,YuiLoong
   name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  email:             <youyee0807@gmail.com>
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    일단 무작정 뭐라도 도전해 보자 생각해서 만든 블로그
+    시간 날 때마다 천천히 씁니다 :)
     
     Open `_data/authors.yml` to edit this text.
 
   # This photo will be used in the about section
-  picture:
-    path:            https://via.placeholder.com/128x128
+  picture:  #about에 보일 자기 사진
+    path:            assets/img/me.jpg
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            https://via.placeholder.com/128x128
-      2x:            https://via.placeholder.com/256x256
+      1x:            assets/img/me.jpg
+      2x:            assets/img/me.jpg
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         <username>
-    github:          <username>
-    # email:           <mail@domain.tld>
+    #twitter:         <username>
+    github:          "https://github.com/YuiLoong"
+    email:           <youyee0807@gmail.com>
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
