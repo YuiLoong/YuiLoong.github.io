@@ -3,7 +3,7 @@ title: "소개글"
 layout: single
 categories: about
 ---
-<span style="font-size:100%; font-weight:bold">
+<span style="font-size:160%; font-weight:bold">
 <br><br><br> About
 </span>
 <br>
