@@ -7,7 +7,12 @@ categories: about
 
 # About
 
-<img src="assets/img/me.jpg" width="100" height="50">
+picture:
+    path:            /assets/img/me.jpg
+    # srcset is optional, but can be used to provide higher res versions for retina displays
+    srcset:
+      1x:            /assets/img/me.jpg
+      2x:            /aeests/img/me.jpg
 
 
 
