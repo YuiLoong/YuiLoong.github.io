@@ -15,16 +15,16 @@ categories: about
 ___
 <br>
 
-최유이<br>
-일단 무작정 도전해 보자 생각하고 만든 블로그<br>
-시간 날 때마다 틈틈이 쓰는 초보 개발자의 블로그입니다.<br>
+**최유이**<br>
+*일단 무작정 도전해 보자 생각하고 만든 블로그*<br>
+*시간 날 때마다 틈틈이 쓰는 초보 개발자의 블로그입니다.*<br>
 <br>
 <br>
 <br>
 
 Education & Awards
 * * *
-<u><span style="color:green">수원과학대학교</span></u> 
+<u><span style="color:green">수원과학대학교</span></u><br> 
   *AI소프트웨어학과 재학중(2022~)<br> 
   *지도교수님:이명문<br>
   *4차산업 전공동아리 경진대회 수상<br>
