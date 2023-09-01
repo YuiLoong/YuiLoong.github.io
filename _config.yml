@@ -25,8 +25,7 @@ title:                 YUI Blog
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  시간 날 때마다 천천히 써보는 공간입니다.
 
 # A shorter description for the sidebar.
 tagline:               초보 개발자의 일지
