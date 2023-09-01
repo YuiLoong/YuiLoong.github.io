@@ -7,12 +7,7 @@ categories: about
 
 # About
 
-picture:
-    path:            /assets/img/me.jpg
-    # srcset is optional, but can be used to provide higher res versions for retina displays
-    srcset:
-      1x:            /assets/img/me.jpg
-      2x:            /aeests/img/me.jpg
+![Alt text](/assets/img/me.jpg)
 
 
 
