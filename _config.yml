@@ -48,7 +48,7 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Categories
+  - title:             BaekJoon
     url:               https://www.acmicpc.net/user/youyee0807
   - title:             Documentation
     url:               /docs/
