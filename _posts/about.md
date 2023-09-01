@@ -1,7 +1,8 @@
 # 소개글
 ---
-layout: about
+layout: single
 title: about
+permalink: /about/
 menu: true
 order: 1
 ---
