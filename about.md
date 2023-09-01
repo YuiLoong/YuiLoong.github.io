@@ -4,7 +4,12 @@ layout: single
 categories: about
 ---
 
-## 소개글
+
+# About
+
+<img src="assets/img/me.jpg" width="100" height="50">
+
+
 
 * * *
 <center>
