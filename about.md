@@ -3,23 +3,30 @@ title: "소개글"
 layout: single
 categories: about
 ---
-
-
-# About
+<br>
+<br>
+---
+# _About_
+<br>
+<br>
 
 ![Alt text](/assets/img/me.jpg)
+<br>
+___
+<br>
 
-
-
+최유이
+<br>
 * * *
 <center>
 <span style =
 "font-size:170%;
 font-weight:bold">
-최유이
+-수원과학대학교 AI소프트웨어학과 재학중(2022~)
+-4차산업 전공동아리 경진대회 수상
+-기술경진대회 입상 1위(2022)
+-기술경진대회 입상 1위(2023)
+
 </span>
 </center>
 
-</center>MAJOR : AI EENGINEERING</center>
-
-<center> 수원과학대학교 재학중(2022~) </center>
