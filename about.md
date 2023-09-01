@@ -6,7 +6,7 @@ categories: about
 <br>
 <br>
 <br>
-# _About_
+# About
 <br>
 <br>
 
