@@ -4,7 +4,7 @@ layout: single
 categories: about
 ---
 <span style="font-size:100%; font-weight:bold">
-<br><br><br> *About*
+<br><br><br> About
 </span>
 <br>
 <br>
@@ -13,6 +13,7 @@ categories: about
 <br>
 ___
 <br>
+
 
 
 
