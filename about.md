@@ -5,9 +5,8 @@ categories: about
 ---
 <br>
 <br>
----
 <br>
-#_(About)_
+# _About_
 <br>
 <br>
 
