@@ -49,7 +49,7 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             Categories
-    url:               "https://www.acmicpc.net/user/youyee0807"
+    url:               https://www.acmicpc.net/user/youyee0807
   - title:             Documentation
     url:               /docs/
   - title:             About
