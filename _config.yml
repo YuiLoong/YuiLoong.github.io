@@ -24,7 +24,7 @@ title:                 YUI Blog
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
-description:      소개     >
+description:           >
   시간 날 때마다 천천히 써보는 공간입니다.
 
 # A shorter description for the sidebar.
