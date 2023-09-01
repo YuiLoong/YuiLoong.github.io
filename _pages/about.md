@@ -1,6 +1,6 @@
 ---
-title: about
-permalink: /about/
+title: 소개
+categories: about
 layout: single
 memu: true
 order: 1
