@@ -1,7 +1,10 @@
 ---
-title: "about"
+title: about
 permalink: /about/
 layout: single
+memu: true
+order: 1
+
 ---
 
 ## 소개글
