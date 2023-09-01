@@ -1,6 +1,5 @@
 ---
-title: "about"
-permalink: /about/
+title: "소개글"
 layout: single
 categories: about
 ---
