@@ -1,10 +1,9 @@
-<br><br><br># *About*
 ---
 title: "소개글"
 layout: single
 categories: about
 ---
-
+<br><br><br># *About*
 <br><br><br>#About
 <br>
 <br>
