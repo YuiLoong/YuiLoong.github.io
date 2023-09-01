@@ -1,11 +1,10 @@
-# 소개글
 ---
-layout: single
 title: about
+layout: single
 permalink: /about/
-menu: true
-order: 1
 ---
+
+# 소개글
 
 * * *
 <center>
