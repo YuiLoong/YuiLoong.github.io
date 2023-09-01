@@ -24,6 +24,8 @@ ___
 
 Education & Awards
 * * *
+
+'''
 <u><span style="color:green">수원과학대학교</span></u><br> 
   *AI소프트웨어학과 재학중(2022~)<br> 
   *지도교수님:이명문<br>
@@ -31,6 +33,5 @@ Education & Awards
   *기술경진대회 입상 1위(2022)<br>
   *기술경진대회 입상 1위(2023)<br>
 
-</span>
-</center>
+'''
 
