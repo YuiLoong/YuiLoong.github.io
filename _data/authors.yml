@@ -8,8 +8,7 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    일단 무작정 도전해 보자 생각하고 만든 블로그
-    시간 날 때마다 천천히 씁니다 :)
+    되든 안되든 일단 한번 해보자 :)
     
     Open `_data/authors.yml` to edit this text.
 
