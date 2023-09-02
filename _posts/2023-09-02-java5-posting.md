@@ -35,7 +35,7 @@ ___
 ## 문제 풀이
   ___
   문제 자체가 난이도가 그리 높지 않으니 별다른 얘기는 없지만, 주의할 점이 있다.<br>
-  바로  <span style="color:red">실수 값</span>이라는 것이다.
+  바로  <span style="color:red">실수 값</span>이라는 것이다. <br>
   그러므로 `Integer`가 아닌 `Double`로 받아야한다.<br>
   
 ```js
