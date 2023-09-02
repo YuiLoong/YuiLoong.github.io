@@ -75,7 +75,7 @@ class BoardDao{
   재밌는 점은 뒤에 `예시` 부분을 생략할 수 있다는 것이다. 
   어떻게 쓰든 둘 다 <span style="color:#2D3748;background-color:#fff5b1;">`예시`에 지정된 타입의 객체만 저장</span> 이라는 것이다.
 
-  물론 조금은 주의할 점이 있다.
+  물론 주의할 점이 있다.
   > List list = new ArrayList();
   경우는 <span style="color:red">모든 타입의 객체를 저장</span> 한다는 점!
 
