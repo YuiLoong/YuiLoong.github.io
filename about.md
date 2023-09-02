@@ -5,10 +5,11 @@
 
 Copyright (c) 2020 Florian Klampfer <https://qwtel.com/>
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+> 일단 무작정 도전해 보자 생각하고 만든 블로그
+   
+시간 날 때마다 틈틈이 써보며 채워보려고 합니다. 
+프로그래밍에 관심이 많습니다 비록 미숙한 부분도 많지만 열정을 가지고,  
+이것저것 시도를 해보며 다양한 경험을 해보고자 합니다 :)
 
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
