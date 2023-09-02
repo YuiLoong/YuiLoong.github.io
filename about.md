@@ -5,7 +5,7 @@
 <details>
 <summary>사진 접기/펼치기</summary>
 
-![Alt text](/assets/img/me.jpg)
+![Alt text](./assets/img/me.jpg)
 
 </details>
 
