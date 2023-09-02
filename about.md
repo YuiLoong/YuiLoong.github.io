@@ -4,9 +4,9 @@
 
 <details>
 <summary>사진 접기/펼치기</summary>
-<div markdown='1'>
+
 ![Alt text](/assets/img/me.jpg)
-</div>
+
 </details>
 
 
