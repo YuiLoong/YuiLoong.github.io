@@ -2,8 +2,13 @@
 
 
 
+<details>
+<summary>사진 접기/펼치기</summary>
+<div markdown='1'>
+![Alt text](/assets/img/me.jpg)
+</div>
+</details>
 
-Copyright (c) 2020 Florian Klampfer <https://qwtel.com/>
 
 > 일단 무작정 도전해 보자 생각하고 만든 블로그
    
