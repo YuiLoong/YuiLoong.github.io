@@ -68,7 +68,7 @@ ___
   > Set<예시> set = new Set<예시> (); <br>
   > Set<예시> set = new Set<>();
 
-  `ArrayList` 처럼 뒤에 `예시` 부분을 생략할 수 있다.<br>
+  [ArrayList] 처럼 뒤에 `예시` 부분을 생략할 수 있다.<br>
   그리고 이번에도 주의할 점은 똑같다.<br>
    > Set set = new Set();
   <br>
