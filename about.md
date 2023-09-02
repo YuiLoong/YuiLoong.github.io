@@ -21,7 +21,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 ### Education & Awards
----
+***
 > 수원과학대학교 
 >  (Mar.2022~)  
 >  학과: AI 소프트웨어(AI SoftWare)  
@@ -29,7 +29,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 >  [4차산업 전공동아리 경진대회 수상]  
 >  [기술경진대회 입상 1위(2022)]  
 >  [기술경진대회 입상 1위(2023)]  
-
+>
 
 [4차산업 전공동아리 경진대회 수상]:https://dhs.ssc.ac.kr/sub020407/349/rMAMaqW@21/view/4442
 [기술경진대회 입상 1위(2022)]:https://dhs.ssc.ac.kr/sub020407/349/rMAMaqW@21/view/3469?page=1
