@@ -20,102 +20,20 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
-## Attributions
-Appropriate credit as per Creative Commons licenses.
-
-| Work                                                   | License        | Changes
-|:-------------------------------------------------------|:---------------|:-
-| Photo by [Jeremy Bishop][jb]                           | [Unsplash]     | Liquify filter, blur
-| Photo by [Caleb George][cg]                            | [Unsplash]     | Liquify filter, patch tool, blur
-| [IcoMoon Icons Free Version][11] by [Keyamoon][12]     | [CC-BY-SA-4.0] | None
-| [Touch-161562.svg][41]                                 | [CC0-1.0]      | Composition
-
-[jb]: https://unsplash.com/photos/1braZySlEKA
-[cg]: https://unsplash.com/photos/AtvuPUenaeI
-[11]: https://icomoon.io/#icons-icomoon
-[12]: http://keyamoon.com/
-[41]: https://commons.wikimedia.org/wiki/File:Touch-161562.svg
+### Education & Awards
+:
+> 수원과학대학교 
+>  (Mar.2022~)  
+>  학과: AI 소프트웨어(AI SoftWare)  
+>  지도교수님: 이명문  
+>  [4차산업 전공동아리 경진대회 수상]  
+>  [기술경진대회 입상 1위(2022)]  
+>  [기술경진대회 입상 1위(2023)]  
 
 
-## Licenses
-Parts of this software are provided under separate licenses.
-
-### Hyde
-This software also uses portions of the
-`poole/hyde`
-project, which is [MIT] licensed with the following copyright:
-
-> Copyright (c) 2013 Mark Otto.
-
-
-### hy-drawer
-This software also uses portions of the
-`hydecorp/hy-drawer`
-project, which is [GPL-3.0] licensed with the following copyright:
-
-> Copyright (c) 2018 Florian Klampfer <https://qwtel.com/>
-
-
-### hy-push-state
-This software also uses portions of the
-`hydecorp/hy-push-state`
-project, which is [GPL-3.0] licensed with the following copyright:
-
-> Copyright (c) 2018 Florian Klampfer <https://qwtel.com/>
-
-
-### RxJS
-This software also uses portions of the
-`ReactiveX/rxjs`
-project, which is [Apache-2.0] licensed with the following copyright:
-
-> Copyright (c) 2015-2017 Google, Inc., Netflix, Inc., Microsoft Corp. and contributors
-
-No substantial changes to the software were made.
-No `NOTICE` file was provided.
-
-
-### KaTeX
-This software also uses portions of the
-`Khan/KaTeX`
-project, which is [MIT] licensed with the following copyright:
-
-> Copyright (c) 2015 Khan Academy
-
-
-### core-js
-This software also uses portions of the
-`zloirock/core-js`
-project, which is [MIT] licensed with the following copyright:
-
-> Copyright (c) 2014-2016 Denis Pushkarev
-
-
-### Web Animations
-This software also uses portions of the
-`web-animations/web-animations-js`
-project, which is [Apache-2.0] licensed with the following copyright:
-
-> Copyright 2014 Google Inc. All rights reserved.
-
-No substantial changes to the software were made.
-No `NOTICE` file was provided.
-
-
-### Modernizr
-This software also uses portions of the
-`Modernizr/Modernizr`
-project, which is [MIT] licensed with the following copyright:
-
-> Copyright (c)  
->  Faruk Ates  
->  Paul Irish  
->  Alex Sexton  
->  Ryan Seddon  
->  Patrick Kettner  
->  Stu Cox  
->  Richard Herrera  
-
+[4차산업 전공동아리 경진대회 수상]:https://dhs.ssc.ac.kr/sub020407/349/rMAMaqW@21/view/4442
+[기술경진대회 입상 1위(2022)]:https://dhs.ssc.ac.kr/sub020407/349/rMAMaqW@21/view/3469?page=1
+[기술경진대회 입상 1위(2023)]:https://dhs.ssc.ac.kr/sub020407/349/rMAMaqW@21/view/5573?page=1
 
 ### Compress HTML in Jekyll
 This software also uses portions of the
