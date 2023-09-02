@@ -77,8 +77,8 @@ class BoardDao{
 
   물론 주의할 점이 있다.
   > List list = new ArrayList();
-  
-    경우는 <span style="color:red">모든 타입의 객체를 저장</span> 한다는 점!
+  <br>
+ 경우는 <span style="color:red">모든 타입의 객체를 저장</span> 한다는 점!
 
   
   이렇게 생성 방법을 간단하게 알아봤다. 이제 이를 이용해서 적용을 해보자.
