@@ -68,7 +68,7 @@ class BoardDao{
 }
 ```
   다음으로 ArrayList 컬렉션을 생성하는데, 생성은 이렇게 할 수 있다.
-  > List<Example> list = new ArrayList<Example>();
+  > List<Example> list = new ArrayList<Example> ();
 > <br>
   > List<Example> list = new ArrayList<>();
 
