@@ -81,7 +81,7 @@ class BoardDao{
  경우는 <span style="color:red">모든 타입의 객체를 저장</span> 한다는 점!
 
   
-  
+  <br>
   이렇게 생성 방법을 간단하게 알아봤다. 이제 이를 이용해서 적용을 해보자.
 
   ```js
