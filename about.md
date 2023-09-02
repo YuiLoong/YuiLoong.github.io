@@ -21,7 +21,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 ### Education & Awards
-:
+---
 > 수원과학대학교 
 >  (Mar.2022~)  
 >  학과: AI 소프트웨어(AI SoftWare)  
