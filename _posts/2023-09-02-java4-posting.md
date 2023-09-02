@@ -45,7 +45,7 @@ ___
   <br>
   좀 다른 방식으로 접근을 하였다.<br>
   다시말해, 이미 객체를 추가한 상태에서 for문을 돌려 입력 값과 판별하여 뽑아내는 것이 아닌<br>
-  <span style="color:#2D3748;background-color:#fff5b1;">입력 값을 List에 추가하고 추가된 객체를 for문을 돌려 a이 문자인지 판별한 것이다.</span>
+  <span style="color:#2D3748;background-color:#fff5b1;">입력 값을 List에 추가하고 추가된 객체를 for문을 돌려 이 문자인지 판별한 것이다.</span>
   <br>
   판별할 때는 한 문자 `equals`메소드를 사용한다. 
   
