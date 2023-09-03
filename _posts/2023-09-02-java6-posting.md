@@ -80,3 +80,7 @@ public class Menu {
   
   <br>
   이를 실행을 해보면 문제가 요구한 실행 결과처럼 뜰 것이다. :)
+
+    permalink:         /:Java/
+    
+    permalink:         /tag-:프레임워크/
