@@ -85,7 +85,7 @@ ___
 
 ## Comparable / Comparator
   ___
-  TreeSet과 TreeMap에 저장되는 키, 객체는 저장과 동시에 오름차순으로 정렬되는데,<br>
+  `TreeSet`과 `TreeMap`에 저장되는 키, 객체는 저장과 동시에 오름차순으로 정렬되는데,<br>
   Comparable 인터페이스를 구현하고 있어야 가능함<br>
   또한 compareTo() 메소드가 정의 되어 있다.<br>
   따라서 사용자 정의 클래스에서 이 메소드를 재정의하여 비교 결과를 정수 값으로 리턴해야 함
