@@ -93,7 +93,7 @@ ___
 ## 문제 풀이
   ___
   총점에 따라 오름차순 정렬을 위해 `TreeSet`에 `Comparator`를 사용한다.<br>
-  마찬가지로 StudentComparator클래스가 Comparable 인터페이스를 구현하도록 변경해준<br>
+  마찬가지로 StudentComparator클래스가 Comparable 인터페이스를 구현하도록 변경해준다.<br>
   그리고 `Compare` 메소드를 이용하여 두 총점을 비교한다.<br>
   
 ```js
