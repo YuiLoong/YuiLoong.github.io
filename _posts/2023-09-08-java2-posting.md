@@ -85,7 +85,7 @@ ___
   <br>
   <br>
  
-  그렇다면 바로 문제 풀이에 들어가보자자.<br>
+  그렇다면 바로 문제 풀이에 들어가보자.<br>
   <br>
 
   [이전 문제]:https://yuiloong.github.io/java/2023-09-08-java-posting/
