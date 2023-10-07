@@ -117,4 +117,4 @@ public class ReadExample {
   <br>
   추가로 파일을 열어보면 병합된 새 text파일이 추가된 것을 확인할 수 있다.
   <br>
-![첨부1](../assets/img/1007(2).png)
+![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/1007(2).png?raw=true)
