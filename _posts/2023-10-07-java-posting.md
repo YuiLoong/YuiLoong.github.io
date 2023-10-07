@@ -47,7 +47,7 @@ ___
   이번 문제를 들어가기 앞서 미리 텍스트 파일을 만들어준다.<br>
   경로는 기억해두면 어디든 상관없으나, 일단 문제에서 예시로 든 경로를 기준으로 만들어보겠다. <br>
   <br>
-  ![첨부1](../assets/img/1007(1).png)
+  ![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/1007(1).png?raw=true)
   <br>
   
 ## 문제 풀이
