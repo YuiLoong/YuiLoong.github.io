@@ -10,33 +10,33 @@ categories: Java
 ___
 키보드로부터 합치고자 하는 파일의 개수를 입력받고, 그 개수만큼 파일명을 입력받아 1개 파일로 합쳐서 출력하는 프로그램을 작성하시오.<br>
 만약 입력 파일이 존재하지 않으면 해당 파일이 존재하지 않는다는 메시지를 출력하시오.<br>
-> **입력**
-> 실행예: 1
-> 합칠 파일 개수 = <span style="color:green">3</span>
-> 입력 파일명 1 = <span style="color:green">c:/temp/test1.txt</span>
-> 입력 파일명 2 = <span style="color:green">c:/temp/test2.txt</span>
-> 입력 파일명 3 = <span style="color:green">c:/temp/test3.txt</span>
-> 출력 파일명 = <span style="color:green">c:/temp/result.txt</span>
-> <span style="color:blue">완료되었습니다.</span>
+> **입력** <br>
+> 실행예: 1 <br>
+> 합칠 파일 개수 = <span style="color:green">3</span><br>
+> 입력 파일명 1 = <span style="color:green">c:/temp/test1.txt</span><br>
+> 입력 파일명 2 = <span style="color:green">c:/temp/test2.txt</span><br>
+> 입력 파일명 3 = <span style="color:green">c:/temp/test3.txt</span><br>
+> 출력 파일명 = <span style="color:green">c:/temp/result.txt</span><br>
+> <span style="color:blue">완료되었습니다.</span><br>
 > <br>
-> 실행예: 2
-> 합칠 파일 개수 = <span style="color:green">3</span>
-> 입력 파일명 1 = <span style="color:green">c:/temp/test1.txt</span>
-> 입력 파일명 2 = <span style="color:green">c:/temp/test2.txt</span>
-> 입력 파일명 3 = <span style="color:green">c:/temp/test4.txt</span>
-> 출력 파일명 = <span style="color:green">c:/temp/result.txt</span>
-> <span style="color:red">파일 c:/temp/test4.txt가 존재하지 않습니다.</span>
+> 실행예: 2<br>
+> 합칠 파일 개수 = <span style="color:green">3</span><br>
+> 입력 파일명 1 = <span style="color:green">c:/temp/test1.txt</span><br>
+> 입력 파일명 2 = <span style="color:green">c:/temp/test2.txt</span><br>
+> 입력 파일명 3 = <span style="color:green">c:/temp/test4.txt</span><br>
+> 출력 파일명 = <span style="color:green">c:/temp/result.txt</span><br>
+> <span style="color:red">파일 c:/temp/test4.txt가 존재하지 않습니다.</span><br>
 > <br>
->> **텍스트 파일 참조**
->> test1.txt의 내용:
->> 첫 번째 파일입니다.
->> test2.txt의 내용:
->> 세 번째 파일입니다.
->>> **결과값**
->>> 정상적인 실행 시 result.txt의 내용:
->>> 첫 번째 파일입니다.
->>> 두 번째 파일입니다.
->>> 세 번째 파일입니다.
+>> **텍스트 파일 참조**<br>
+>> test1.txt의 내용:<br>
+>> 첫 번째 파일입니다.<br>
+>> test2.txt의 내용:<br>
+>> 세 번째 파일입니다.<br>
+>>> **결과**<br>
+>>> 정상적인 실행 시 result.txt의 내용:<br>
+>>> 첫 번째 파일입니다.<br>
+>>> 두 번째 파일입니다.<br>
+>>> 세 번째 파일입니다.<br>
 
 
 <br>
