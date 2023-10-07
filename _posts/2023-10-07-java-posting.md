@@ -47,7 +47,7 @@ ___
   이번 문제를 들어가기 앞서 미리 텍스트 파일을 만들어준다.<br>
   경로는 기억해두면 어디든 상관없으나, 일단 문제에서 예시로 든 경로를 기준으로 만들어보겠다. <br>
   <br>
-  ![첨부1](YuiLoong.github.io/assets/img/1007(1))
+  ![첨부1](../assets/img/1007(1))
   <br>
   
 ## 문제 풀이
@@ -118,4 +118,4 @@ public class ReadExample {
   <br>
   추가로 파일을 열어보면 병합된 새 text파일이 추가된 것을 확인할 수 있다.
   <br>
-  ![첨부1](YuiLoong.github.io/assets/img/1007(1))
+  ![첨부2](../assets/img/1007(2))
