@@ -59,7 +59,7 @@ ___
   그렇다면 왜 Scanner가 아닌 Buffer를 써야하나? 그 이유는 입력값이 많을 땐 성능적으로도<br>
   그렇고 무엇보다 Scanner보다 수행 시간이 빠르기 때문이다.<br>
   
-  
+
 ```js
 // file: `ReadExample.java`
 import java.io.*;
@@ -113,9 +113,8 @@ public class ReadExample {
 }
 
 ```
-  <br>
   이를 실행을 해보면 문제가 요구한 실행 결과처럼 뜰 것이다. :)
   <br>
   추가로 파일을 열어보면 병합된 새 text파일이 추가된 것을 확인할 수 있다.
   <br>
-  ![첨부2](../assets/img/1007(2).png)
+![첨부1](../assets/img/1007(2).png)
