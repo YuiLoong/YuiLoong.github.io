@@ -1,5 +1,6 @@
 ---
 categories: Java
+toc: true
 ---
 
 ## 데이터 입출력(2)
