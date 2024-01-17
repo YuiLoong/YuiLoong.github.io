@@ -1,7 +1,7 @@
 ---
 categories: Java
-toc: true
-toc_sticky: true
+no_toc: true
+no_toc_sticky: true
 ---
 
 ## 데이터 입출력(3)
