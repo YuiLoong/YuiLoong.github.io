@@ -38,19 +38,33 @@ toc: true
   
 ## 문제1
 ___
-알림창에 자신의 이름을 출력하는 코드를 작성해 보시오<br>
-<br>
+자신의 나이를 age 변수에 저장한 후 콘솔 창에 '나는 OO세입니다.'라고 출력하는 코드를 작성하시오.<br>
 <br>
 
 ## 문제 풀이1
   ___
-  먼저 `Visual Code`에서 임의의 html파일을 생성하고 웹 브라우저를 불러온 뒤 그림과 같이 콘솔창을 띄운다.
-  ![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0313_1.png?raw=true)
-  <br>
-  그 다음 콘솔창에 `alert() 함수`를 이용해 자신의 이름을 출력해보자.<br>
-  <br>
+  콘솔 창에 출력은 console.log()를 사용하면 된다.<br>
+  ```js
+  let age = 20; /*age 변수에 나이를 저장*/
+  console.log("나는 "+age+"세입니다.")
+  ```
+## 문제2
+___
+5개 색깔 red, blue, green, white, black 을 colors라는 배열에 저장한 후<br>
+for문을 이용해  화면에 표시하는 코드를 작성하시오.<br>
 
-> **alert()함수** <br>
+## 문제 풀이2
+  ___
+  ```js
+  const colors = ["red","blue","green","white","black"]; /*color 배열에 값을 저장*/
+  for(let i = 0; i <color.length;i++){
+    document.write("${color[i]}. ");
+  } /*배열 길이만큼 돌고 순서대로 값을 뽑는다.*/
+  ```
+***잠깐***
+여기서 `for문`과 `foreach문`에 대해서 알아보도록 하자.
+
+> **for문** <br>
 > alert문은 알림창을 표시한다. 그리고 이 함수의 소괄호 안에 메시지나 변수를 넣으면 알림창에 텍스트나 변숫값이 뜬다.<br>
 > <span style="color:green">이때 소괄호 안에 큰 따옴표나 작은 따옴표와 함께 작성해줘야한다.</span><br>
 
