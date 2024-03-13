@@ -14,6 +14,9 @@ toc: true
 ___
 알림창에 자신의 이름을 출력하는 코드를 작성해 보시오<br>
 <br>
+
+ 
+
 > **입력** <br>
 > 실행예: 1 <br>
 > 합칠 파일 개수 = <span style="color:green">3</span><br>
@@ -46,13 +49,28 @@ ___
 <br>
 <br>
 
-## 문제 풀이 들어가기 전
+
+## 문제 풀이1
   ___
-  이번 문제를 들어가기 앞서 미리 텍스트 파일을 만들어준다.<br>
-  경로는 기억해두면 어디든 상관없으나, 일단 문제에서 예시로 든 경로를 기준으로 만들어보겠다. <br>
   <br>
-  ![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/1007(1).png?raw=true)
+  먼저 `Visual Code`에서 임의의 html파일을 생성하고 웹 브라우저를 불러온 뒤 그림과 같이 콘솔창을 띄운다.
+  ![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0313_1.png?raw=true)
   <br>
+  그 다음 콘솔창에 `alert() 함수`를 이용해 자신의 이름을 출력해보자.<br>
+
+> **alert()함수** <br>
+> alert문은 알림창을 표시한다. 그리고 이 함수의 소괄호 안에 메시지나 변수를 넣으면 알림창에 텍스트나 변숫값이 뜬다.<br>
+> <span style="color:green">이때 소괄호 안에 큰 따옴표나 작은 따옴표와 함께 작성해줘야한다.</span><br>
+
+  <br>
+  이름을 출력해야하므로 소괄호 안에 자신의 이름을 넣어준다.<br>
+  ![첨부2](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0313_2.png?raw=true)
+  <br>
+  그리고 `Enter`키를 눌러주면 화면처럼 알림창에 텍스트가 뜬다.<br>
+  ![첨부3](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0313_3.png?raw=true)
+  <br>
+  <br>
+  
   
 ## 문제 풀이
   ___
