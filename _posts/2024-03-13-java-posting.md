@@ -137,7 +137,7 @@ ___
   console.log는 뱐수와 함께 내용을 연결하여 표시도 가능하다.
   <br>
   <br>
-  문제에선 변수를 `name`으로 선언하라고 지시했기 때문에
+  문제에선 변수를 `name`으로 선언하라고 지시했기 때문에 name으로 선언해준다.
 ```js
 name = "최유이" /*자신의 이름을 할당함*/
 ```
@@ -151,6 +151,33 @@ console.log("나는" + name + "입니다.")
 <br>
 조합하는 것은 쉽다. 규칙대로 텍스트는 큰따옴표로 감싸주고 `ooo`자리에 변수인 name을 넣어주면 된다.<br>
 ![첨부6](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0313_6.png?raw=true)
+<br>
+
+## 문제5
+___
+ number 변수값에 100을 더한 후 result 변수에 할당하는 코드를 작성하시오.<br>
+
+## 문제 풀이5
+  ___
+  <br>변수를 선언하기 전에 let 과 const에 대해 간단하게 알아보도록 하자.<br>
+
+> **변수 선언과 값 할당(let,const)** <br>
+> <span style="color:red">`변수`</span>라면 `let`<br>
+> <span style="color:blue">`상수`</span>라면 `const`<br>
+  <br>
+  <br>
+  
+  ```js
+let number = 100; 
+result = number
+
+/* 
+let number;
+number = 100;
+
+(let number = 100; 대신 저렇게 사용해도 된다.)
+*/
+```
   
 ```js
 // file: `ReadExample.java`
