@@ -16,41 +16,6 @@ ___
 <br>
 <br>
 
- 
-
-> **입력** <br>
-> 실행예: 1 <br>
-> 합칠 파일 개수 = <span style="color:green">3</span><br>
-> 입력 파일명 1 = <span style="color:green">c:/temp/test1.txt</span><br>
-> 입력 파일명 2 = <span style="color:green">c:/temp/test2.txt</span><br>
-> 입력 파일명 3 = <span style="color:green">c:/temp/test3.txt</span><br>
-> 출력 파일명 = <span style="color:green">c:/temp/result.txt</span><br>
-> <span style="color:blue">완료되었습니다.</span><br>
-> <br>
-> 실행예: 2<br>
-> 합칠 파일 개수 = <span style="color:green">3</span><br>
-> 입력 파일명 1 = <span style="color:green">c:/temp/test1.txt</span><br>
-> 입력 파일명 2 = <span style="color:green">c:/temp/test2.txt</span><br>
-> 입력 파일명 3 = <span style="color:green">c:/temp/test4.txt</span><br>
-> 출력 파일명 = <span style="color:green">c:/temp/result.txt</span><br>
-> <span style="color:red">파일 c:/temp/test4.txt가 존재하지 않습니다.</span><br>
-> <br>
->> **텍스트 파일 참조**<br>
->> test1.txt의 내용:<br>
->> 첫 번째 파일입니다.<br>
->> test2.txt의 내용:<br>
->> 세 번째 파일입니다.<br>
->>> **결과**<br>
->>> 정상적인 실행 시 result.txt의 내용:<br>
->>> 첫 번째 파일입니다.<br>
->>> 두 번째 파일입니다.<br>
->>> 세 번째 파일입니다.<br>
-
-
-<br>
-<br>
-
-
 ## 문제 풀이1
   ___
   먼저 `Visual Code`에서 임의의 html파일을 생성하고 웹 브라우저를 불러온 뒤 그림과 같이 콘솔창을 띄운다.
@@ -249,6 +214,8 @@ let person = {
 }
 ```
 <br>
+
+~~20살은 아니지만 되고 싶어서 그냥 20살로 적어봤다 시간이 정말 빠르다..~~ <br>
 
 ## 문제9
 ___
