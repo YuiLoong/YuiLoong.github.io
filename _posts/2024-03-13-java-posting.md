@@ -81,7 +81,6 @@ ___
 ___
 다음의 코드를 실행하여 나오는 '확인 창'에서 [확인] 버튼을 클릭했을 때 반환되는 값은 무엇인가?<br>
 ```js
-//
 
 confirm('프로그램을 종료하시겠습니까?');
 
@@ -125,6 +124,34 @@ ___
 <br>
 <br>
 
+## 문제4
+___
+변수 name을 선언해서 자신의 이름을 할당하고, 콘솔 창에 '나는 OOO입니다.'라고 출력하는 코드를 작성하시오.<br>
+<br>
+
+## 문제 풀이4
+  ___
+  <br>
+  문제3번과 같이 `console.log()`함수를 이용해서 하면 된다.
+  <br>
+  console.log는 뱐수와 함께 내용을 연결하여 표시도 가능하다.
+  <br>
+  <br>
+  문제에선 변수를 `name`으로 선언하라고 지시했기 때문에
+```js
+name = "최유이" /*자신의 이름을 할당함*/
+```
+<br>
+<span style="color: #2D3748; background-color:#fff5b1;">코드를 보면 `C`와 `Java`와는 다르게 변수에 타입을 지정하지 않아도 된다.</span><br>
+변수을 선언했고 값도 할당했으므로 다음으로 콘솔창에 해당 텍스트가 출력되도록 코드를 넣어준다.<br>
+```js
+name = "최유이"
+console.log("나는" + name + "입니다.")
+```
+<br>
+조합하는 것은 쉽다. 규칙대로 텍스트는 큰따옴표로 감싸주고 `ooo`자리에 변수인 name을 넣어주면 된다.<br>
+![첨부6](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0313_6.png?raw=true)
+  
 ```js
 // file: `ReadExample.java`
 import java.io.*;
