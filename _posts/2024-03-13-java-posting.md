@@ -76,16 +76,29 @@ ___
   <br>
   <br>
   
+
+## 문제2
+___
+다음의 코드를 실행하여 나오는 '확인 창'에서 [확인] 버튼을 클릭했을 때 반환되는 값은 무엇인가?<br>
+```js
+//
+
+confirm('프로그램을 종료하시겠습니까?');
+
+```
+<br>
+<br>
   
 ## 문제 풀이
   ___
-  이번 문제는 `BufferReader`를 이용해 풀어보려고한다.<br>
-  `BufferReader`는 간단하게 말하자면 `Scanner`와 비슷하고 볼 수 있다.<br>
-  다만,`Scanner`와 `BufferReader`의 경우는 입력 받은 데이터가 String 고정이기 때문에<br>
-  따로 원하는 타입으로 입력 데이터를 가공해줘야한다.<br>
-  그렇다면 왜 Scanner가 아닌 Buffer를 써야하나? 그 이유는 입력값이 많을 땐 성능적으로도<br>
-  그렇고 무엇보다 Scanner보다 수행 시간이 빠르기 때문이다.<br>
+  ![첨부4](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0313_4.png?raw=true)
+  <br>
+  <br>
+  사진처럼 `true`가 나온다.<br>
+  추가로 `취소`를 누를 경우, `false`가 나온다.<br>
+  <br>
   
+
 
 ```js
 // file: `ReadExample.java`
