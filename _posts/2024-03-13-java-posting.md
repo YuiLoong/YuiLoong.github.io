@@ -89,7 +89,7 @@ confirm('프로그램을 종료하시겠습니까?');
 <br>
 <br>
   
-## 문제 풀이
+## 문제 풀이2
   ___
   ![첨부4](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0313_4.png?raw=true)
   <br>
@@ -98,7 +98,32 @@ confirm('프로그램을 종료하시겠습니까?');
   추가로 `취소`를 누를 경우, `false`가 나온다.<br>
   <br>
   
+## 문제3
+___
+콘솔 창에 '자바스크립트를 좋아합니다'라고 출력하는 코드를 작성해 보시오.<br>
+<br>
+<br>
 
+## 문제 풀이3
+  ___
+  <br>
+  콘솔창에 출력하는 문제는 `console.log() 명령을 사용해서 하면 된다.
+  <br>
+  <br>
+
+> **console.log()함수** <br>
+> 간단하게 텍스트로 보여주는 명령<br>
+> 중간중간 프로그램이 제대로 동작하는 지 확인하는 용도<br>
+> <span style="color:green">이때 소괄호 안에 큰 따옴표와 함께 작성해줘야한다.</span><br>
+  <br>
+  <br>
+
+문제에서 요구한 대로 콘솔 창에 메시지를 출력해야하므로 소괄호 안에 텍스트를 넣어준다.<br>
+코드를 작성한 뒤, `Enter` 키를 눌러주면 사진과 같이 결과값이 창이 아닌 콘솔창에 뜬다.<br>
+<br>
+![첨부5](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0313_5.png?raw=true)
+<br>
+<br>
 
 ```js
 // file: `ReadExample.java`
