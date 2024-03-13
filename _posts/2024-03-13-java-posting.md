@@ -53,7 +53,6 @@ ___
 
 ## 문제 풀이1
   ___
-  <br>
   먼저 `Visual Code`에서 임의의 html파일을 생성하고 웹 브라우저를 불러온 뒤 그림과 같이 콘솔창을 띄운다.
   ![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0313_1.png?raw=true)
   <br>
@@ -105,7 +104,6 @@ ___
 
 ## 문제 풀이3
   ___
-  <br>
   콘솔창에 출력하는 문제는 `console.log() 명령을 사용해서 하면 된다.
   <br>
   <br>
@@ -131,7 +129,6 @@ ___
 
 ## 문제 풀이4
   ___
-  <br>
   문제3번과 같이 `console.log()`함수를 이용해서 하면 된다.
   <br>
   console.log는 뱐수와 함께 내용을 연결하여 표시도 가능하다.
@@ -159,7 +156,7 @@ ___
 
 ## 문제 풀이5
   ___
-  <br>변수를 선언하기 전에 let 과 const에 대해 간단하게 알아보도록 하자.<br>
+  변수를 선언하기 전에 let 과 const에 대해 간단하게 알아보도록 하자.<br>
 
 > **변수 선언과 값 할당(let,const)** <br>
 > <span style="color:red">`변수`</span>라면 `let`<br>
@@ -180,7 +177,7 @@ ___
 
 ## 문제 풀이6
   ___
-  <br>이번 문제는 prompt문을 이용한 문제이다. 문제를 풀기 앞서 prompt()함수에 대해 알아보자.<br>
+  이번 문제는 prompt문을 이용한 문제이다. 문제를 풀기 앞서 prompt()함수에 대해 알아보자.<br>
   > **prompt()함수** <br>
   >> 기본형1) prompt("내용")<br>
 >  > 기본형2) prompt("내용","기본값")<br>
@@ -214,7 +211,7 @@ ___
 
 ## 문제 풀이7
   ___
-  <br>이번 문제는 배열 문제로 문제를 풀기 전에 한번 배열에 대해 빠르게 짚고 넘어가도록 하자<br>
+  이번 문제는 배열 문제로 문제를 풀기 전에 한번 배열에 대해 빠르게 짚고 넘어가도록 하자<br>
 
 > **배열** <br>
 >> 기본형) 배열명 =[값,값,값,..]<br>
@@ -241,7 +238,7 @@ name, age, gender라는 키를 가지고 있는 person이라는 객체를 만드
 
 ## 문제 풀이8
   ___
-  <br>이번 문제는 자바 객체 문제라고 보면 된다.<br>
+  이번 문제는 자바 객체 문제라고 보면 된다.<br>
   그러므로 바로 코드 짜기로 들어가보면<br>
 
 ```js
@@ -253,67 +250,64 @@ let person = {
 ```
 <br>
 
-## 문제8
+## 문제9
 ___
-name, age, gender라는 키를 가지고 있는 person이라는 객체를 만드는 코드를 작성하시오.<br>
-각 키의 값에는 자신에 해당하는 값을 넣으시오.<br>
+화씨 온도를 섭씨 온도로 변환하기 실습을 따라해서 결과 화면을 첨부하시오.<br>
 
+## 문제 풀이9
+  ___
+  9번 문제는 실습에 따라서 하는 문제이므로 사진으로 대체한다.<br>
+![첨부7](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0313_7.png?raw=true)
+<br>
+![첨부8](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0313_8.png?raw=true)
+<br>
+
+## 문제10
+___
+다음 표현식의 결과를 쓰시오.<br>
+![첨부9](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0313_9.png?raw=true)
+<br>
+<br>
+
+## 문제 풀이10
+  ___
+  10번 문제는 표에 빈칸 넣는 문제이며 해설 칸이 있으므로 사진으로 대체한다.<br>
+
+
+
+## 문제11
+___
+사용자로부터 인치를 입력받아 센티미터로 바꾸는 프로그램을 작성하시오. 1인치는 2.54cm이다<br>
+<br>
+
+## 문제 풀이11
+  ___
+  이 문제는 9번 문제와 유사한 문제로 바로 코드작성으로 들어가보자.<br>
+  <br>
+  먼저 임의의 새로운 `html` 파일을 생성한 뒤, body부분에 제목을 넣어보자<br>
+  제목은 "인치를 입력받아 센티미터로 변환하기" 로 해뒀다. 내용 부분은 제목과 동일하게 하고 크기를 `h1`으로 설정함.<br>
+  
+```js
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>인치를 입력받아 센티미터로 변환하기</title>
+</head>
+<body>
+  <h1>인치를 입력받아 센티미터로 변환하기</h1>
+  <script src="js/convert-result.js"></script>
+</body>
+</html>
+```
 
 ```js
-// file: `ReadExample.java`
-import java.io.*;
-import java.io.FileNotFoundException;
+let inch = parseFloat(prompt("변환할 인치"));
+let cm;
 
-public class ReadExample {
-    public static void main(String[] args) {
-        try {
-            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-            
-            System.out.print("합칠 파일 개수 = ");
-            int cnt = Integer.parseInt(br.readLine());
-            
-            String[] inputFiles = new String[cnt]; //합칠 파일의 갯수만큼 공간 만들기
-            
-            for (int i = 0; i < cnt; i++) {
-                System.out.print("입력 파일명 " + (i + 1) + " = ");
-                inputFiles[i] = br.readLine();
-            }
-            
-            System.out.print("출력 파일명 = ");
-            String outputFileName = br.readLine();
-            
-            File outputFile = new File(outputFileName);
-            
-            try (FileWriter writer = new FileWriter(outputFile)) {
-                for (String inputFileName : inputFiles) {
-                    File inputFile = new File(inputFileName);
-                    if (inputFile.exists()) {
-                        try (BufferedReader reader = new BufferedReader(new FileReader(inputFile))) {
-                            String line;
-                            while ((line = reader.readLine()) != null) {
-                                writer.write(line + "\n");
-                            }
-                        }
-                    } else {
-                        System.out.println("파일 " + inputFileName + "가 존재하지 않습니다.");
-                    }
-                }
-            }
-            
-            System.out.println("완료되었습니다.");
-            
-        } catch (FileNotFoundException e) {
-        	e.printStackTrace();
-        }catch (IOException e) {
-            e.printStackTrace();
-        } 
-    }
-}
-}
-
+cm = (inch*2.54).toFixed(2);
+alert(`화씨 ${inch}inch는 섭씨 ${cm}cm입니다.`);
 ```
-  이를 실행을 해보면 문제가 요구한 실행 결과처럼 뜰 것이다. :)
-  <br>
-  추가로 파일을 열어보면 병합된 새 text파일이 추가된 것을 확인할 수 있다.
-  <br>
-![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/1007(2).png?raw=true)
+
