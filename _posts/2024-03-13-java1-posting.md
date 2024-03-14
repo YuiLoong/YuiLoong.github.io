@@ -119,4 +119,15 @@ ___
 
 ## 문제 풀이4
   ___
-  
+```js
+const fruits = ["apple","banana","cheery","grape","orange"];
+
+/*1*/
+fruits.forEach(function(fruit){
+  document.write(`${fruit}.`)
+});
+
+/* 1번 부분은 아래 코드와 같이도 쓸 수 있다.
+fruits.forEach(fruit => document.write(`${fruit}. `});
+*/
+```
