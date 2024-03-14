@@ -8,6 +8,7 @@ toc: true
   순서대로 하는 것이 물론 바람직하다. 본인도 퐁당퐁당 포스팅을 쓰고 싶지않았다.<br> 
   <br>
   <br>
+  <br>
   **그렇지만....** <br>
   <br>
   <br>
@@ -16,7 +17,9 @@ toc: true
   <br>
   <br>
   <br>
+  <br>
   <span style="color: red;">***여기서부터 잔인함.*** </span><br>
+  <br>
   <br>
   <br>
   <br>
@@ -47,10 +50,13 @@ toc: true
   ![첨부2](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/20240313_3.jpg?raw=true)<br>
   *개강해서 정신줄은 놓은 건 절대 아니다* <br>
   <br>
+  <br>
+  <br>
   <span style="color: #2D3748; background-color:#fff5b1;">정말 절대 아니고 그냥 `블로그`인데 너무 딱딱한 것 같아서 뻘소리를 좀 넣어본 것이다.</span><br>
   ~~어차피 내 블로그인데 그냥 내 마음대로 하겠습니다?~~
   <br>
   ![첨부3](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/202400313_2.jpg?raw=true)<br>
+  <br>
   <br>
   <br>
   **그래봤자 이러고 다시 코드 문제에 들어가면 조용해지거나 다음 포스팅 때도 기력이 딸려서**<br>
