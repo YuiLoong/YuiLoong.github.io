@@ -43,7 +43,9 @@ toc: true
   <br>
   <br>
   **그래봤자 이러고 다시 코드 문제에 들어가면 조용해지거나 다음 포스팅 때도 기력이 딸려서**<br>
-  ***다시 빡집중 모드ON***<br>
+  <br>
+  
+  ***다시 빡집중 모드ON*** <br>
   들어갈 수 있다. 그럴 확률 200000%이다.<br> 
   <br>
   
@@ -68,8 +70,8 @@ for문을 이용해  화면에 표시하는 코드를 작성하시오.<br>
   ___
   ```js
   const colors = ["red","blue","green","white","black"]; /*color 배열에 값을 저장*/
-  for(let i = 0; i <color.length;i++){
-    document.write("${color[i]}. ");
+  for(let i = 0; i <colors.length;i++){
+    document.write("${colors[i]}. ");
   } /*배열 길이만큼 돌고 순서대로 값을 뽑는다.*/
   ```
 ***잠깐***
