@@ -37,8 +37,7 @@ toc: true
   <br>
   <br>
   
-  *그냥이다.*
-  ===
+  >*그냥이다.*
   
   ![첨부2](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/20240313_3.jpg?raw=true)<br>
   *개강해서 정신줄은 놓은 건 절대 아니다* <br>
