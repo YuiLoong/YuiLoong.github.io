@@ -8,14 +8,14 @@ toc: true
   순서대로 하는 것이 물론 바람직하다. 본인도 퐁당퐁당 포스팅을 쓰고 싶지않았다.<br> 
   <br>
   <br>
-  그렇지만....<br>
+  **그렇지만....** <br>
   <br>
   <br>
   <br>
   <br>
   <br>
   <br>
-  여기서부터 잔인함.<br>
+  <span style="color: red;">***여기서부터 잔인함.*** </span><br>
   <br>
   <br>
   <br>
@@ -38,6 +38,7 @@ toc: true
   <br>
   
   >*그냥이다.*
+  <br>
   
   ![첨부2](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/20240313_3.jpg?raw=true)<br>
   *개강해서 정신줄은 놓은 건 절대 아니다* <br>
