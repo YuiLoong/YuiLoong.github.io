@@ -7,7 +7,13 @@ toc: true
   다음 포스팅은 다시 변수와 자료형 문제를 가지고 오려고 한다.<br>
   순서대로 하는 것이 물론 바람직하다. 본인도 퐁당퐁당 포스팅을 쓰고 싶지않았다.<br> 
   그렇지만....<br>
+  <br>
+  <br>
+  <br>
   여기서부터 잔인함.<br>
+  <br>
+  <br>
+  <br>
   ![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/20240313.jpg?raw=true)
   <br>
   ~~이 포스팅을 쓰는 와중에도 과제가 쌓여간다~~ <br>
@@ -19,9 +25,14 @@ toc: true
   <br>
   ...
   <br>
+  <br>
+  <br>
+  <br>
+  <br>
   
   *그냥이다.*
   ===
+  
   ![첨부2](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/20240313_3.jpg?raw=true)<br>
   *개강해서 정신줄은 놓은 건 절대 아니다* <br>
   <br>
