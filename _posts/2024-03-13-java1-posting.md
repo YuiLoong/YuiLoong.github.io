@@ -160,3 +160,28 @@ ___
 실습 수행 문제이므로 사진으로 대체한다. <br>
 ![첨부5](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0314_3.PNG?raw=true)<br>
 ![첨부6](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0314_4.PNG?raw=true)<br>
+
+## 문제7
+___
+03\quiz-1.html 문서에는 배열이 주어져 있다. 이 배열에서 10보다 큰 값을 찾아 화면에 표시하는 프로그램을 작성하시오.<br>
+
+## 문제 풀이7
+  ___
+```js
+let Number = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19];
+
+for (let i=0; i< Number.length;i++ ){
+  if(Number[i]>10){
+    document.write(`${Number[i]}, `);
+  }
+}
+```
+<br>
+
+## 문제8
+___
+사용자에게 1보다 큰 수를 입력하게 한 후 입력한 숫자까지 짝수만 더하는 프로그램을 작성하시오.<br>
+
+## 문제 풀이8
+  ___
+
