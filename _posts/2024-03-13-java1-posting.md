@@ -71,11 +71,16 @@ for문을 이용해  화면에 표시하는 코드를 작성하시오.<br>
   ```js
   const colors = ["red","blue","green","white","black"]; /*color 배열에 값을 저장*/
   for(let i = 0; i <colors.length;i++){
-    document.write("${colors[i]}. ");
+    document.write(`${colors[i]}. `);
   } /*배열 길이만큼 돌고 순서대로 값을 뽑는다.*/
   ```
 ***잠깐***
-여기서 `for문`과 `foreach문`에 대해서 알아보도록 하자.
+document.write()를 쓸 때는 소괄호 안에는 반드시 `백틱(backtick)`인 <span style="color: #2D3748; background-color:#fff5b1;">`</span>을 넣어줘야한다.<br>
+작은 따옴표와 혼동하지 않도록<br>
+
+추가적으로 `for문`과 `foreach문`에 대해서도 얘기해보자면, 단순한 배열 요소라면<br> 
+`for`문과 `forEach`문은 별다른 큰 차이는 없다. <span style="color: #2D3748; background-color:#fff5b1;">그러나 도중에 배열의 길이 변화로 정확한 배열 크기를 모를 때,<br>배열의 요소를 가져와 함수를 실행해야 할 때</span> `forEach`문이 더 편리하다고 볼 수 있다.
+
 
 > **for문** <br>
 > alert문은 알림창을 표시한다. 그리고 이 함수의 소괄호 안에 메시지나 변수를 넣으면 알림창에 텍스트나 변숫값이 뜬다.<br>
