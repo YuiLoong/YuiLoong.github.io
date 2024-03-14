@@ -131,3 +131,32 @@ fruits.forEach(function(fruit){
 fruits.forEach(fruit => document.write(`${fruit}. `});
 */
 ```
+
+<br>
+
+## 문제5
+___
+size 0.5, color 검정, type 볼펜 을 요소로 갖는 객체 pen을  만들고 for...in 문을 사용해 키와 값을 화면에 표시하는 코드를 작성하시오.<br>
+
+## 문제 풀이5
+  ___
+```js
+const pen = {
+  size : 0.5,
+  color : "검정",
+  type : "볼펜"
+}
+
+for(key in pen){
+  document.write(`${key}: ${pen[key]}<br>`);
+}
+```
+## 문제6
+___
+"소수인지의 여부 확인하기" 실습을 수행하고, 결과를 첨부하시오.<br>
+
+## 문제 풀이6
+  ___
+실습 수행 문제이므로 사진으로 대체한다. <br>
+![첨부5](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0314_3.PNG?raw=true)<br>
+![첨부6](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0314_4.PNG?raw=true)<br>
