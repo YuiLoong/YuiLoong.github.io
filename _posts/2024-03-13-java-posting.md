@@ -284,6 +284,6 @@ let inch = parseFloat(prompt("변환할 인치"));
 let cm;
 
 cm = (inch*2.54).toFixed(2);
-alert(`화씨 ${inch}inch는 섭씨 ${cm}cm입니다.`);
+alert(`${inch} inch는 ${cm} cm입니다.`);
 ```
 
