@@ -186,18 +186,18 @@ ___
   ___
   
 ```js
-let user = prompt("1보다 큰 슷자를 입력하세요");
+let userNumber = prompt("1보다 큰 슷자를 입력하세요");
 // 1)만약 사용자가 "취소"버튼을 눌렀을 경우 null값을 가짐
 // 2) 1보다 큰 수를 입력해야하므로
 let sum = 0;
-if(userNumber !== null || userNumber>1){
+if(userNumber !== null && userNumber>1){
   userNumber = parseInt(userNumber); //계산해야하므로 정수로 변환
-  for( let i=0; i<userNumber; i++){
+  for( let i=1; i<=userNumber; i++){
     if(i%2==0){
       sum+=i;
+      document.write(`${i} ------------ ${sum} <br> `);
     }
   }
-  alert("ㅊ
 }else{
   //조건식에 부합하지 않을 경우 해당 문구 결과를 출력
   alert("잘못 입력하셨습니다. 1보다 큰 수를 입력해주세요") 
