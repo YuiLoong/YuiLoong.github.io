@@ -124,8 +124,8 @@ ___
   변수를 선언하기 전에 let 과 const에 대해 간단하게 알아보도록 하자.<br>
 
 > **변수 선언과 값 할당(let,const)** <br>
-> <span style="color:red">`변수`</span>라면 `let`<br>
-> <span style="color:blue">`상수`</span>라면 `const`<br>
+> <span style="color:red">`변수`</span>라면 `let`: 변수에 재할당 가능<br>
+> <span style="color:blue">`상수`</span>라면 `const`: 변수 재선언/재할당 불가능<br>
   <br>
   <br>
   
