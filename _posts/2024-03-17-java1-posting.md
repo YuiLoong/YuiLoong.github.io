@@ -82,10 +82,10 @@ ___
 <br>
 <br>
 <br>
-  ✔️ 
-  ```js
-  let score = 10;
-  ```
+  ✔️ 이건 예전 포스팅에서 언급한 적이 있으므로 [let과 const 차이] <여기서 참고하면 된다.
+<br>
+  
+[let과 const 차이]:https://yuiloong.github.io/java/2024-03-13-java-posting/#%EB%AC%B8%EC%A0%9C-%ED%92%80%EC%9D%B45
 <br>
 <br>
 
