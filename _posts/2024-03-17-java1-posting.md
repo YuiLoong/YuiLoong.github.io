@@ -117,6 +117,7 @@ console.log(`넓이 = ${3.14 * r * r)`);
 <br>
 <br>
   ✔️ const -> let으로 바꿔준다. 이유는 3번 참고.<br>
+  
   ```js
   let r;
   r = 10;
