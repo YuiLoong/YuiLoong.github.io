@@ -191,7 +191,6 @@ let userNumber = prompt("1보다 큰 슷자를 입력하세요");
 // 2) 1보다 큰 수를 입력해야하므로
 let sum = 0;
 if(userNumber !== null && userNumber>1){
-  userNumber = parseInt(userNumber); //계산해야하므로 정수로 변환
   for( let i=1; i<=userNumber; i++){
     if(i%2==0){
       sum+=i;
