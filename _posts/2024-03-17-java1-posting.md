@@ -82,32 +82,26 @@ ___
 <br>
 <br>
 <br>
-  ✔️ 이건 예전 포스팅에서 언급한 적이 있으므로 [let과 const 차이] <여기서 참고하면 된다.
+  ✔️ 이건 예전 포스팅에서 언급한 적이 있으므로 [let과 const 차이] < 참고하면 된다.
 <br>
   
 [let과 const 차이]:https://yuiloong.github.io/java/2024-03-13-java-posting/#%EB%AC%B8%EC%A0%9C-%ED%92%80%EC%9D%B45
 <br>
 <br>
 
-## 문제4
+## 문제4 && 문제 풀이4
 ___
-5개 과일 apple, banana, cheery , grape, orange를 fruits라는 배열에 저장한 후 forEach 문을 이용해  화면에 표시하는 코드를 작성하시오.<br>
-
-## 문제 풀이4
-  ___
+**4. 다음 프로그램의 실행 결과를 예측해 보시오.**
+<br>
 ```js
-const fruits = ["apple","banana","cheery","grape","orange"];
-
-/*1*/
-fruits.forEach(function(fruit){
-  document.write(`${fruit}.`)
-});
-
-/* 1번 부분은 아래 코드와 같이도 쓸 수 있다.
-fruits.forEach(fruit => document.write(`${fruit}. `});
-*/
+console.log("\\\\\\\\");
 ```
-
+<br>
+<br>
+<br>
+  ✔️ 콘솔창에 " \\\\ " 해당 문구가 뜰 것이다(따옴표 제외) <br>
+  \\당 \가 출력되므로 `\`*8개로 총 4개가 출력<br> 
+<br>
 <br>
 
 ## 문제5
