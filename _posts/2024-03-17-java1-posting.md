@@ -53,7 +53,7 @@ ___
 <br>
 <br>
 <br>
-*<span style="color: red;">3)</span>
+✔️<span style="color: red;">3)</span>
 <br>
 >**자바스크립트의 규칙은 이렇다.** <br>
 >> 변수명 '첫글자'는 `영문자`/`$`/`_`(언더바)만 올 수 있다. <br>
