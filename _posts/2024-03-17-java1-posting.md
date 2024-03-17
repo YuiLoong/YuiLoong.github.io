@@ -52,21 +52,19 @@ ___
 **(1) a (2) hello (3) 10times (4) _ (5) $**
 <br>
 <br>
+<br>
 *<span style="color: red;">3)</span>
 <br>
 >**자바스크립트의 규칙은 이렇다.** <br>
 >> 변수명 '첫글자'는 `영문자`/`$`/`_`(언더바)만 올 수 있다. <br>
 >> 변수명 첫글자 이후로는 `영문자`/<span style="color: green;">`숫자`</span>/`$`/`_`(언더바)만 올 수 있다. <br>
 <br>
-그러므로 첫글자가 숫자인 3번이 오답. <br>
+<br>
+  그러므로 첫글자가 숫자인 3번이 오답. <br>
+<br>
 
-## 문제2
+## 문제2 && 문제 풀이2
 ___
-5개 색깔 red, blue, green, white, black 을 colors라는 배열에 저장한 후<br>
-for문을 이용해  화면에 표시하는 코드를 작성하시오.<br>
-
-## 문제 풀이2
-  ___
   ```js
   const colors = ["red","blue","green","white","black"]; /*color 배열에 값을 저장*/
   for(let i = 0; i <colors.length;i++){
