@@ -48,7 +48,7 @@ toc: true
   
 ## 문제1 && 문제 풀이1
 ___
-**다음 중 변수명으로 사용할 수 없는 것을 고르시오.** <br>
+**1. 다음 중 변수명으로 사용할 수 없는 것을 고르시오.** <br>
 **(1) a (2) hello (3) 10times (4) _ (5) $**
 <br>
 <br>
@@ -65,33 +65,29 @@ ___
 
 ## 문제2 && 문제 풀이2
 ___
+**2. 변수 score를 선언해서 데이터 10을 할당하는 코드를 작성해 보시오.**
+<br>
+<br>
+<br>
+  ✔️ 
   ```js
-  const colors = ["red","blue","green","white","black"]; /*color 배열에 값을 저장*/
-  for(let i = 0; i <colors.length;i++){
-    document.write(`${colors[i]}. `);
-  } /*배열 길이만큼 돌고 순서대로 값을 뽑는다.*/
+  let score = 10;
   ```
-***잠깐***
-document.write()를 쓸 때는 소괄호 안에는 반드시 `백틱(backtick)`인 <span style="color: #2D3748; background-color:#fff5b1;">`</span>을 넣어줘야한다.<br>
-작은 따옴표와 혼동하지 않도록<br> 
-
-추가적으로 `for문`과 `foreach문`에 대해서도 얘기해보자면, 단순한 배열 요소라면<br> 
-`for`문과 `forEach`문은 별다른 큰 차이는 없다. <span style="color: #2D3748; background-color:#fff5b1;">그러나 도중에 배열의 길이 변화로 정확한 배열 크기를 모를 때,<br>배열의 요소를 가져와 함수를 실행해야 할 때</span> `forEach`문이 더 편리하다고 볼 수 있다.
+<br>
 <br>
 
-> **for문** <br>
-> alert문은 알림창을 표시한다. 그리고 이 함수의 소괄호 안에 메시지나 변수를 넣으면 알림창에 텍스트나 변숫값이 뜬다.<br>
-> <span style="color:green">이때 소괄호 안에 큰 따옴표나 작은 따옴표와 함께 작성해줘야한다.</span><br>
-
-## 문제3
+## 문제3 && 문제 풀이3
 ___
-"짝수와 홀수를 구별하는 프로그램 만들기" 실습을 수행하고, 결과를 첨부하시오<br>
-     
-## 문제 풀이3
-  ___
-실습 따라하는 문제이므로 사진으로 대체한다.<br>
-![첨부4](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0314_1.PNG?raw=true)<br>
-![첨부5](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0314_2.PNG?raw=true)<br>
+**3. var와 let과의 차이, let과 const와의 차이를 간략하게 설명하시오.**
+<br>
+<br>
+<br>
+  ✔️ 
+  ```js
+  let score = 10;
+  ```
+<br>
+<br>
 
 ## 문제4
 ___
