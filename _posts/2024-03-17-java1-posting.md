@@ -192,6 +192,8 @@ ___
 1. 콘솔창으로 출력하는 건지 알림창으로 하는 건지 <br>
 2. 소수점 어느자리까지 표시하는 지 <br>
 애매해서 임의로 정했다. 알림창으로 입력값을 받아 알림창에 표시하는 프로그램을 짜보겠다.<br>
+<br>
+
 ```js
 let r = prompt("원의 반지름을 입력하세요");
 let s = 3.14*r*r;
@@ -204,4 +206,5 @@ alert(`넓이: ${s}, 둘레: ${l}`);
 ✔️ 결과창<br> 
 
 ![첨부4](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0317_1.png?raw=true)
+<br>
 ![첨부5](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0317_2.png?raw=true)
