@@ -10,7 +10,7 @@ toc: true
   <br>
   > <span style="color: red;">***(경) 시작하기 앞서, 경사났다. (축)*** </span><br>
   <br>
-  ![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/20240317_3.jpg?raw=true)
+  ![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/20240317_3.png?raw=true)
   <br>
   <br>
   <br>
