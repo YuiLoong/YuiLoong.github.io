@@ -33,7 +33,7 @@ toc: true
   너무 아파서 앓다가 밤에 목이 너무 따가워서 잠도 못 자는 저런 상황이 발생해버렸는데.<br>
   <br>
   <br>
-  > ***그래서 어떡하라고요?***
+  > ***그래서 어떡하라고요?*** <br>
     ㄴ정신차려보니(~~아직도 못차림~~) 과제 제출기간이 얼마 안 남아서 요지경이 되어버렸어요~!ㅎㅎ<br>  
   ![첨부3](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/20240317_2.png?raw=true)
   <br>
