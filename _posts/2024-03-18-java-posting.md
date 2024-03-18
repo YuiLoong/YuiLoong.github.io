@@ -126,7 +126,7 @@ if (level == 1) {
 } else if (level == 3) {
     console.log("수강해야 하는 전공 학점: 10학점");
 } else if (level == 4) {
-    console.log("수강해야 하는 전공 학점: 18학점);
+    console.log("수강해야 하는 전공 학점: 18학점");
 }
 ```
 <br>
@@ -147,7 +147,33 @@ switch (level) {
   case 3:
     console.log("수강해야 하는 전공 학점: 10학점");
   case 4:
-    console.log("수강해야 하는 전공 학점: 18학점);
+    console.log("수강해야 하는 전공 학점: 18학점");
 }
-[출처] 자바스크립트 3장 연산자와 제어문 과제|작성자 AI소프트웨어과
 ```
+<br>
+<br>
+## 문제7 && 문제 풀이7
+___
+
+**​7. 다음 프로그램의 실행 결과를 예측해 보시오.** <br>
+```js
+const array = ['사과', '배', '귤', '바나나'];
+
+console.log('# for in 반복문');
+for (const i in array) {
+    console.log(i);
+}
+
+console.log('# for of 반복문');
+for (const i of array) {
+    console.log(i);
+}
+```
+<br>
+<br>
+<br>
+  ✔️ <br>
+  
+  <span style="color: red;"> in 반복문은 `0 1 2 3`, of 반복문 `사과 배 귤 바나나` </span>
+<br>
+<br>
