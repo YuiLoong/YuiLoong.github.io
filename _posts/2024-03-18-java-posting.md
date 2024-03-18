@@ -48,11 +48,43 @@ ___
 
 ## 문제3 && 문제 풀이3
 ___
-**3. var와 let과의 차이, let과 const와의 차이를 간략하게 설명하시오.**
+**3. 다음의 표현식이 false와 true로 나오는 이유를 설명하시오.** <br>
+```js
+"A" > "B"                        // false
+"Javascript" > "JAVASCRIPT"      // true
+```
 <br>
 <br>
 <br>
-  ✔️ 이건 예전 포스팅에서 언급한 적이 있으므로 [let과 const 차이] < 참고하면 된다.
+  ✔️ <span style="color: red;">아스키코드 값 때문에 </span>
+<br>
 <br>
   
-[let과 const 차이]:https://yuiloong.github.io/java/2024-03-13-java-posting/#%EB%AC
+## 문제4 && 문제 풀이4
+___
+**4. 다음 코드의 주석 부분에 변수 x, y의 값을 표에 있는 값과 같이 할당할 때** <br>
+**나오는 출력 결과를 쓰시오.** <br>
+```js
+let x, y;
+// 값 할당 부분
+
+if (x > 4) {
+    if (y > 2) {
+        console.log(x * y);
+    }
+} else {
+    console.log();
+}
+```
+<br>
+
+| 입력값               | 결과값         | 해설
+|:---------------------|:---------------|:-------------------------------------------
+| x = 2, y = 10        |                | x 값이 조건에 안 맞음
+| x = 1, y = 4         |                | x 값이 조건에 안 맞음
+| x = 10, y = 2        |                | y 값이 조건에 안 맞음 
+<br>
+<br>
+<br>
+  ✔️ <span style="color: red;">아스키코드 값 때문에 </span>
+<br>
