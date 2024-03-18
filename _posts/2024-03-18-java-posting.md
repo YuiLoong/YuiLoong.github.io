@@ -206,25 +206,23 @@ ___
 ## 문제9 && 문제 풀이9
 ___
 
-**​7. 다음 프로그램의 실행 결과를 예측해 보시오.** <br>
-```js
-const array = ['사과', '배', '귤', '바나나'];
+**​​9.사용자로부터 숫자를 입력받아 양수, 0, 음수를 구분하는 프로그램을 작성하시오.** <br>
 
-console.log('# for in 반복문');
-for (const i in array) {
-    console.log(i);
-}
+<br>
+<br>
 
-console.log('# for of 반복문');
-for (const i of array) {
-    console.log(i);
-}
-```
-<br>
-<br>
-<br>
   ✔️ <br>
   
-  <span style="color: red;"> in 반복문은 `0 1 2 3`, of 반복문 `사과 배 귤 바나나` </span>
+  ```js
+  const n = prompt("숫자를 입력하세요");
+
+  if(n>0){
+    console.log("양수입니다.");
+  }else if(n<0){
+    console.log("음수입니다.");
+  }else if(n==0){
+    console.log("0입니다.");
+  }
+  ```
 <br>
 <br>
