@@ -227,6 +227,9 @@ ___
 <br>
 <br>
 
+## 문제10 && 문제 풀이10
+___
+
 **10. 사용자로부터 월을 입력받아 무슨 계절인지 출력하는 프로그램을 작성하시오.** <br>
 
 <br>
@@ -246,6 +249,76 @@ ___
   }else if(n==9 || n==10 || n==11){
     console.log(`${n}월은 가을`);
   }
+  ```
+<br>
+<br>
+
+## 문제11 && 문제 풀이11
+___
+
+**11. 다음 프로그램에서 같은 결과가 나오도록  for of 문을 for in  문으로 바꾸시오.** <br>
+
+```js
+let array = [52, 273, 32, 93, 103];
+
+for (let element of array) {
+    console.log(element);
+}
+```
+<br>
+
+<br>
+<br>
+
+  ✔️ <br>
+  
+  ```js
+let array = [52, 273, 32, 93, 103];
+
+for (let element in array) {
+    console.log(array[element]);
+}
+```
+<br>
+<br>
+
+## 문제12 && 문제 풀이12
+___
+
+**12. 1부터 100까지 숫자를 곱하는 프로그램을 작성하시오.** <br>
+
+<br>
+<br>
+
+  ✔️ <br>
+  
+  ```js
+  let sum = 1;
+
+  for(let i=1;i<=100;i++){
+      sum = sum*i;
+  }
+  console.log(s);
+  ```
+<br>
+<br>
+## 문제12 && 문제 풀이13
+___
+
+**13. 숫자 1부터 999까지 짝수가 몇 개인지 출력하는 프로그램을 작성하시오.** <br>
+
+<br>
+<br>
+
+  ✔️ <br>
+  
+  ```js
+  let cnt = 0;
+
+  for(let i=1;i<=999;i++){
+      cnt++;
+  }
+  console.log(cnt);
   ```
 <br>
 <br>
