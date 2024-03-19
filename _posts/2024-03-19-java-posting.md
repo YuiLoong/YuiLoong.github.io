@@ -74,20 +74,14 @@ getData(showData);
   
 ## 문제4 && 문제 풀이4
 ___
-**4. 다음 코드의 주석 부분에 변수 x, y의 값을 표에 있는 값과 같이 할당할 때** <br>
-**나오는 출력 결과를 쓰시오.** <br>
-```js
-let x, y;
-// 값 할당 부분
+**4.다음 소스 코드를 실행하면 콘솔 창에 어떤 내용이 표시될 지 예상해 보시오.** <br>
 
-if (x > 4) {
-    if (y > 2) {
-        console.log(x * y);
-    }
-} else {
-    console.log();
-}
+```js
+const user = {"His", "name", "is", "Hong"};
+console.log(user);
+console.log(...user);
 ```
+<br>
 <br>
 ✔️ 
 <br>
