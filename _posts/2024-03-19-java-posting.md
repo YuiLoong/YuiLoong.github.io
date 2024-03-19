@@ -77,7 +77,7 @@ ___
 **4.다음 소스 코드를 실행하면 콘솔 창에 어떤 내용이 표시될 지 예상해 보시오.** <br>
 
 ```js
-const user = {"His", "name", "is", "Hong"};
+const user = ["His", "name", "is", "Hong"];
 console.log(user);
 console.log(...user);
 ```
@@ -86,6 +86,10 @@ console.log(...user);
 ✔️ 
 <br>
 
+첫번째 출력값) ['His', 'name', 'is', 'Hong']
+<br>
+
+두번째 출력값) His name is Hong
 <br>
 <br>
 
