@@ -86,10 +86,11 @@ console.log(...user);
 ✔️ 
 <br>
 
-첫번째 출력값) ['His', 'name', 'is', 'Hong']
+첫번째 출력값) <span style="color: red;">['His', 'name', 'is', 'Hong']</span>
+
 <br>
 
-두번째 출력값) His name is Hong
+두번째 출력값) <span style="color: red;">His name is Hong</span>
 <br>
 <br>
 
