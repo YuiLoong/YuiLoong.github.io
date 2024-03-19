@@ -165,4 +165,7 @@ alert(`${num1}과 ${num2}의 최대공약수 : ${quiz2(num1, num2)}`);
 
 ```
 <br>
+
+![첨부5](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0319_5.PNG?raw=true)
+<br>
 <br>
