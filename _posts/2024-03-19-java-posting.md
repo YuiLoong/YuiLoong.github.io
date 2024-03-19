@@ -50,15 +50,25 @@ console.log(`10*20 = ${mul(10,20)}`);
 
 ## 문제3 && 문제 풀이3
 ___
-**3. 다음의 표현식이 false와 true로 나오는 이유를 설명하시오.** <br>
-```js
-"A" > "B"                        // false
-"Javascript" > "JAVASCRIPT"      // true
+**3.콜백 함수를 이용해 사용자 이름과 나이를 입력하면 알림 창에 '안녕하세요? OOO님, 나이가 OO이군요.'라고 출력하는 코드를 작성하시오** <br>
+<br>
+<br>
+  ✔️ <br>
+  
+  ```js
+  function showData(name, age){
+  alert(`안녕하세요 ${name}님, 나이가 ${age}세시군요.` )
+}
+function getData(callback){
+  let userName = prompt("이름 입력하세요");
+  let userAge = prompt("나이를 입력하세요");
+
+  callback(userName,userAge);
+}
+getData(showData);
 ```
 <br>
-<br>
-<br>
-  ✔️ <span style="color: red;">아스키코드 값 때문에 </span>
+![첨부3](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0319_3.PNG?raw=true)
 <br>
 <br>
   
