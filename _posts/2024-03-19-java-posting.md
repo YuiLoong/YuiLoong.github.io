@@ -96,23 +96,33 @@ console.log(...user);
 
 ## 문제5 && 문제 풀이5
 ___
-**5. 다음의 중첩 조건문을 논리 연산자를 사용해 하나의 if 조건문으로 작성하시오.**
-<br>
-```js
-if (x > 10) {
-    if (y > 20) {
-        console.log("조건에 맞습니다.");
-    }
-}
-```
+**5.사용자가 프롬프트 창에 숫자를 입력했을 때 그 숫자를 함수로 넘겨주고,** <br> 
+**함수에서는 숫자가 양수인지, 음수인지, 또는 0인지 판단해서 알림 창에 보여주는 프로그램을 작성하시오.**
 <br>
 <br>
 <br>
   ✔️ <br>
   
 ```js
-if( x > 10 && y > 20) console.log("조건에 맞습니다.");
+function Whatint(n){
+  if (n > 0) {
+    alert(`${n}은 양수입니다.`);
+  } else if (n < 0) {
+    alert(`${n}은 음수입니다.`);
+  } else {
+    alert(`${n}은 0입니다.`);
+  }
+}
+
+const number = parseInt(prompt("숫자를 입력하세요"));
+
+if(!isNaN(number)){
+  Whatint(number);
+}
+
 ```
+<br>
+![첨부4](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0319_4.PNG?raw=true)
 <br>
 <br>
 
