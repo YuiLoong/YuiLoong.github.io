@@ -142,20 +142,27 @@ ___
   ✔️ <br>
 
 ```js
-// 학년 변수를 생성한다.
-let level = 1;
+function quiz2(num1,num2){
+  if(num1 > num2){
+    max = num1;
+  }else{
+    max = num2;
+  }
 
-// 출력한다.
-switch (level) {
-  case 1:
-    console.log("수강해야 하는 전공 학점: 12학점");
-  case 2: 
-    console.log("수강해야 하는 전공 학점: 18학점");
-  case 3:
-    console.log("수강해야 하는 전공 학점: 10학점");
-  case 4:
-    console.log("수강해야 하는 전공 학점: 18학점");
+  for(let i=1;i<=max;i++){
+    if(num1%i==0 && num2%i==0){
+        result = i
+    }
+  }
+  return result;
 }
+
+
+let num1 = prompt("첫번째 숫자를 입력하세요");
+let num2 = prompt("두번째 숫자를 입력하세요");
+let result = 0;
+alert(`${num1}과 ${num2}의 최대공약수 : ${quiz2(num1, num2)}`);
+
 ```
 <br>
 <br>
