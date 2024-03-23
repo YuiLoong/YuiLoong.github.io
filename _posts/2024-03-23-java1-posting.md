@@ -249,15 +249,16 @@ console.log(`가장 큰 수는 ${MaxNumber}입니다.`);
 <br>
 <br>
 
-## 문제6 && 문제 풀이6
+## 문제7 && 문제 풀이7
 ___
-**6. 2개의 숫자를 입력받아 두 수의 최대공약수를 구하는 함수를 작성하고 테스트해 보시오.** <br>
-**예를 들어 4와 12의 최대공약수는 4이다. 즉, 두 수 모두 나누어 떨어지는 수 중에서 가장 큰 값이 최대 공약수이다.**
+**7.체질량 지수(BMI)를 계산하는 공식은 몸무게를 키(m)의 제곱으로 나눈 값입니다.** <br>
+**사용자에게 키(cm)와 몸무게(kg)에 해당하는 값을 전달받아 체질량 지수를 계산합니다.** <br>
+**체질량 지수가 26점 이상이면 비만, 24~25점은 과체중, 18.5~23점은 정상, 18.5점 미만은 저체중을 반환하는 함수를 만들어 보세요.**
 <br>
->힌트: <br>
->1) 주어진 두 수 중에서 어떤 수가 큰 수인지 확인한다.<br>
->2) 두 수가 모두 나누어 떨어져야 하므로 두 수 중에서 큰 수까지 반복하면서 작은 수도 나누어 떨어지고, 큰 수도 나누어 떨어지는 수를 찾는다.<br>
->3) 찾을 때마다 변수에 할당한다. 반복이 모두 끝나면 변수에는 가장 마지막에 할당한 약수만 남는다.<br>
+>테스트 #1) 키: 180cm, 몸무게: 100kg → 콘솔출력: 비만 <br>
+>테스트 #2) 키: 180cm, 몸무게:   80kg → 콘솔출력: 과체중 <br>
+>테스트 #3) 키: 180cm, 몸무게:   70kg →콘솔 출력: 정상 <br>
+>테스트 #4) 키: 180cm, 몸무게:   59kg → 콘솔출력: 저체중 <br>
 
 <br>
 <br>
@@ -265,30 +266,29 @@ ___
   ✔️ <br>
 
 ```js
-function quiz2(num1,num2){
-  if(num1 > num2){
-    max = num1;
-  }else{
-    max = num2;
-  }
+function BMI(height, weight) {
+    const heightMeter = height / 100; // cm -> m으로 변환
+    const bmi = weight / (heightMeter * heightMeter); // bmi 공식
 
-  for(let i=1;i<=max;i++){
-    if(num1%i==0 && num2%i==0){
-        result = i
+    if (bmi >= 26) {
+        return "비만";
+    } else if (bmi >= 24 && bmi <= 25) {
+        return "과체중";
+    } else if (bmi >= 18.5 && bmi <= 23) {
+        return "정상";
+    } else {
+        return "저체중";
     }
-  }
-  return result;
 }
 
-
-let num1 = prompt("첫번째 숫자를 입력하세요");
-let num2 = prompt("두번째 숫자를 입력하세요");
-let result = 0;
-alert(`${num1}과 ${num2}의 최대공약수 : ${quiz2(num1, num2)}`);
+// 입력 받고 값 출력
+let height = prompt("키 입력하세요");
+let weight = prompt("몸무게 입력하세요");
+console.log(`키: ${height}cm, 몸무게: ${height}kg 은 ${BMI(height, weight)}`);
 
 ```
 <br>
 
-![첨부5](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0319_5.PNG?raw=true)
+![첨부5](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0323_3.png?raw=true)
 <br>
 <br>
