@@ -42,13 +42,11 @@ const add = function(){};
 
 ② 함수 선언문
 <br>
-
 ❖ `function`으로 시작한다.
 <br>
 <br>
 
 ③ 화살표 함수 
-
 <br>
 ❖ (매개변수) => {함수 내용}
 <br>
