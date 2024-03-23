@@ -152,6 +152,9 @@ viewBttn.onclick = function() {
 }
 ```
 <br>
+
+![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0323_4.png?raw=true)
+<br>
 <br>
 
 ## 문제9 && 문제 풀이9
@@ -188,5 +191,7 @@ function getGCD(n, m) {
 
 ```
 <br>
+
+![첨부2](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0323_5.png?raw=true)
 <br>
 
