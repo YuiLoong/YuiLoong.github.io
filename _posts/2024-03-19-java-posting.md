@@ -66,7 +66,16 @@ const add = function(){};
 
 ## 문제2 && 문제 풀이2
 ___
-**2.화살표 함수를 사용해 두 수를 받아서 곱하는 함수를 정의한 후, 10과 20을 곱한 결괏값을 콘솔 창에 표시하시오.**
+**2.코드에서 max 변수의 출력값이 배열 중 가장 큰 숫자가 될 수 있도록 getArrayNumber() 함수를 완성하세요.** <br>
+**이때, 배열 요소는 반드시 숫자형이라고 가정합니다.**
+<br>
+```js
+function getArrayMaxNumber(arr){ 
+    /* 함수 코드를 완성하세요 */ 
+}
+const max = getArrayMaxNumber([10, 50, 30]);
+console.log(max); 
+```
 <br>
 <br>
 <br>
@@ -75,11 +84,19 @@ ___
   <br>
   
 ```js
-let mul = (a,b) => a*b;
-console.log(`10*20 = ${mul(10,20)}`);
+function getArrayMaxNumber(arr){ 
+    let max = arr[0]; 
+    for(let i=0;i<arr.length;i++){
+        if(arr[i]>max){
+            max = arr[i];
+        }
+    }
+    return max;
+}
+const max = getArrayMaxNumber([10, 50, 30]);
+console.log(max);
 ```
 <br>
-![첨부2](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0319_2.PNG?raw=true)
 <br>
 <br>
 
