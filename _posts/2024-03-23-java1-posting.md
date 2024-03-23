@@ -197,21 +197,15 @@ ___
   ✔️ <br>
   
 ```js
-function Whatint(n){
-  if (n > 0) {
-    alert(`${n}은 양수입니다.`);
-  } else if (n < 0) {
-    alert(`${n}은 음수입니다.`);
-  } else {
-    alert(`${n}은 0입니다.`);
-  }
+function Circle(radius) {
+    const pi = 3.14;
+    const s = pi * radius * radius;
+    return s;
 }
 
-const number = parseInt(prompt("숫자를 입력하세요"));
-
-if(!isNaN(number)){
-  Whatint(number);
-}
+const radius = prompt("반지름 입력하세요"); // 반지름
+const s = Circle(radius); // 함수 호출을 통해 원의 넓이 계산
+console.log(`반지름 ${radius}인 원의 넓이는 ${s}입니다.`);
 
 ```
 <br>
