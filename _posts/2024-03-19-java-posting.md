@@ -12,69 +12,33 @@ toc: true
 
 ## 문제1 && 문제 풀이1
 ___
-**1.다음 중 코드에서 사용한 함수 정의 방법을 모두 고르세요.** 
+**1.두 수를 받아서 곱하고 결괏값을 반환하는 함수를 만든 후 10과 20을 곱한 결괏값을 콘솔 창에 표시하는 코드를 작성하시오.** 
 <br>
 
 ```js
-const add = function(){};
+function calc(a,b){
+  let result = a*b;
+  console.log(`두 수의 곱: ${result}`);
+}
+calc(10,20);
 ```
-<br>
-① 함수 표현식
-<br>
-② 함수 선언문
-<br>
-③ 화살표 함수
-<br>
-④ 네이밍 함수
-<br>
-⑤ 익명 함수
 <br>
 <br>
 <br>
 ✔️
-
-<br>
-<span style="color: red;">① 함수 표현식</span>
-
-<br>
-❖ 변수로 저장할 수 있으며, 이 변수는 함수처럼 사용 가능해진다.
-<br>
 <br>
 
-② 함수 선언문
-<br>
-
-❖ `function`으로 시작한다.
-<br>
-<br>
-
-③ 화살표 함수 
-
-<br>
-❖ (매개변수) => {함수 내용}
-<br>
-<br>
-
-④ 네이밍 함수
-<br>
-
-<span style="color: red;">⑤ 익명 함수</span>
-<br>
-❖ var 변수명 = function(매개변수){실행문;};
+![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0319_1.PNG?raw=true)
 <br>
 <br>
 
 ## 문제2 && 문제 풀이2
 ___
-**2.코드에서 max 변수의 출력값이 배열 중 가장 큰 숫자가 될 수 있도록 getArrayNumber() 함수를 완성하세요.** <br>
-**이때, 배열 요소는 반드시 숫자형이라고 가정합니다.**
+**2.화살표 함수를 사용해 두 수를 받아서 곱하는 함수를 정의한 후, 10과 20을 곱한 결괏값을 콘솔 창에 표시하시오.**
 <br>
 ```js
-function getArrayMaxNumber(arr){ 
-    /* 함수 코드를 완성하세요 */ 
-}
-const max = getArrayMaxNumber([10, 50, 30]);
-console.log(max); 
+let mul = (a,b) => a*b;
+console.log(`10*20 = ${mul(10,20)}`);
 ```
 <br>
 <br>
@@ -83,64 +47,34 @@ console.log(max);
   ✔️ 
   <br>
   
-```js
-function getArrayMaxNumber(arr){ 
-    let max = arr[0]; 
-    for(let i=0;i<arr.length;i++){
-        if(arr[i]>max){
-            max = arr[i];
-        }
-    }
-    return max;
-}
-const max = getArrayMaxNumber([10, 50, 30]);
-console.log(max);
-```
+![첨부2](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0319_2.PNG?raw=true)
 <br>
 <br>
 <br>
 
 ## 문제3 && 문제 풀이3
 ___
-**3.다음 중 코드를 실행했을 때 콘솔창에 출력될 값을 고르세요.** <br>
-```js
-var text = "outside";
-function printScope(){
-  console.log(text);
-  var text = "inside";
-};
-printScope();
+**3.콜백 함수를 이용해 사용자 이름과 나이를 입력하면 알림 창에 '안녕하세요? OOO님, 나이가 OO이군요.'라고 출력하는 코드를 작성하시오** <br>
+<br>
+<br>
+  ✔️ <br>
+
+  ```js
+  function showData(name, age){
+  alert(`안녕하세요 ${name}님, 나이가 ${age}세시군요.` )
+}
+function getData(callback){
+  let userName = prompt("이름 입력하세요");
+  let userAge = prompt("나이를 입력하세요");
+
+  callback(userName,userAge);
+}
+getData(showData);
 ```
 <br>
-① outside
-<br>
-② inside
-<br>
-③ null
-<br>
-<span style="color: red;">④ undefined</span>
-<br>
-❖ 아직 값이 할당되기 전에 출력되므로 ``undefined`가 출력된다.
-<br>
-<br>
-
-⑤ " "
-<br>
-<br>
-<br>
-
   ✔️ <br>
   
-① outside
-<br>
-② inside
-<br>
-③ null
-<br>
-④ undefined
-<br>
-⑤ " "
-<br>
+  ![첨부3](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0319_3.PNG?raw=true)
 <br>
 <br>
   
