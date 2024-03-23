@@ -127,3 +127,66 @@ document.forms[0].elements[0]
 ```
 <br>
 <br>
+
+## 문제8 && 문제 풀이8
+___
+**8.05\quiz-1.html 문서에는 [상세 설명 보기 / 닫기] 버튼이 있는데,** <br>
+**이 버튼을 클릭할 때마다 상세 설명이 나타나거나 사라지도록 코드를 작성해 보시오.**
+<br>
+
+>상세 설명이 있는 영역을 가져와서 변수로 저장한다. <br>
+>버튼을 가져와서 변수로 저장한다.<br>
+>문서에는 .hidden {display: none; } 스타일이 만들어져 있다.<br>
+>버튼을 클릭할 때마다 클래스 리스트의 toggle() 함수를 사용해 .hidden 스타일이 토글되도록 한다.<br>
+<br>
+<br>
+
+  ✔️ <br>
+
+```js
+const viewBttn = document.querySelector("#view");
+const detail = document.querySelector("#detail");
+
+viewBttn.onclick = function() {
+  detail.classList.toggle("hidden");
+}
+```
+<br>
+<br>
+
+## 문제9 && 문제 풀이9
+___
+**9. 4장에서 작성한 '두 수의 최대공약수 구하기' 함수를 그대로 사용화면서 화면에 2개의 값을 입력한 후** <br>
+**[계산하기] 버튼을 클릭했을 때 함수를 실행하고, 함수의 실행 결과는 '결과' 항목에 표시해 보시오** <br>
+<br>
+<br>
+<br>
+
+  ✔️ <br>
+
+```js
+const n = document.querySelector("#number1");
+const m = document.querySelector("#number2");
+const button = document.querySelector("button");
+let result = document.querySelector("#result");
+
+button.onclick = function() {
+  result.innerText = getGCD(n.value, m.value);
+}
+
+function getGCD(n, m) {
+  let max = n > m ? n : m;
+  let GCD = 0;
+  for (let i = 1; i <= max; i++) {
+    if (n % i === 0 && m % i === 0) {
+      GCD = i;   
+    }
+  }
+  return GCD;
+}
+
+
+```
+<br>
+<br>
+
