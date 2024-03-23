@@ -216,6 +216,41 @@ console.log(`반지름 ${radius}인 원의 넓이는 ${s}입니다.`);
 
 ## 문제6 && 문제 풀이6
 ___
+**6. 매개변수로 배열을 전달받아 배열의 요소 중에서 가장 큰 수를 찾아 반환하는 함수를 만들어 보세요.** <br>
+**이때, 배열 안의 데이터는 모두 0보다 큰 정수라고 가정합니다.** <br>
+>*테스트 배열: [10, 20, 50, 5, 30]* <br>
+>*콘솔 출력) 가장 큰 수는 50입니다.*
+<br>
+<br>
+<br>
+
+  ✔️ <br>
+
+```js
+function Number(arr) {
+    let max = arr[0]; 
+    
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > max) {
+            max = arr[i]; 
+        }
+    }
+    return max; // 최대값 반환
+}
+
+const testArray = [10, 20, 50, 5, 30];
+const MaxNumber = Number(testArray);
+console.log(`가장 큰 수는 ${MaxNumber}입니다.`);
+
+```
+<br>
+
+![첨부5](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0323_2.png?raw=true)
+<br>
+<br>
+
+## 문제6 && 문제 풀이6
+___
 **6. 2개의 숫자를 입력받아 두 수의 최대공약수를 구하는 함수를 작성하고 테스트해 보시오.** <br>
 **예를 들어 4와 12의 최대공약수는 4이다. 즉, 두 수 모두 나누어 떨어지는 수 중에서 가장 큰 값이 최대 공약수이다.**
 <br>
