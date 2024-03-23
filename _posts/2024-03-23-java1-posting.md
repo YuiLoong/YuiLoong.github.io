@@ -115,12 +115,8 @@ printScope();
 <br>
 ③ null
 <br>
-<span style="color: red;">④ undefined</span>
+④ undefined
 <br>
-❖ 아직 값이 할당되기 전에 출력되므로 ``undefined`가 출력된다.
-<br>
-<br>
-
 ⑤ " "
 <br>
 <br>
@@ -134,7 +130,10 @@ printScope();
 <br>
 ③ null
 <br>
-④ undefined
+<span style="color: red;">④ undefined</span>
+<br>
+❖ 아직 값이 할당되기 전에 출력되므로 ``undefined`가 출력된다.
+<br>
 <br>
 ⑤ " "
 <br>
@@ -143,23 +142,46 @@ printScope();
   
 ## 문제4 && 문제 풀이4
 ___
-**4.다음 소스 코드를 실행하면 콘솔 창에 어떤 내용이 표시될 지 예상해 보시오.** <br>
+**4. 다음 코드를 실행하면 출력될 변수 result의 값을 고르세요.** <br>
 
 ```js
-const user = ["His", "name", "is", "Hong"];
-console.log(user);
-console.log(...user);
+const result = (function(a, b){
+  function init(){
+    return doSum(a, b);
+  }
+  function doSum(a, b){
+    return a + b;
+  }
+  return init();
+})(10, 20);
+console.log(result);
 ```
+<br>
+① undefined
+<br>
+② null
+<br>
+③ 50
+<br>
+④ 30
+<br>
+⑤ SyntaxError
 <br>
 <br>
 ✔️ 
 <br>
-
-첫번째 출력값) <span style="color: red;">['His', 'name', 'is', 'Hong']</span>
-
+① undefined
 <br>
-
-두번째 출력값) <span style="color: red;">His name is Hong</span>
+② null
+<br>
+③ 50
+<br>
+<span style="color: red;">④ 30</span>
+<br>
+❖ a=10, b=20 값이 들어가서 dosum()함수 실행.
+<br>
+<br>
+⑤ SyntaxError
 <br>
 <br>
 
