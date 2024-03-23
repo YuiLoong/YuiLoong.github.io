@@ -3,7 +3,7 @@ categories: Java
 toc: true
 ---
 
-## 자바스크립트 함수와 스코프 연습문제(1)
+## 자바스크립트 함수와 스코프 연습문제(2)
   <br> 
   <br>
   <br>
@@ -12,20 +12,53 @@ toc: true
 
 ## 문제1 && 문제 풀이1
 ___
-**1.두 수를 받아서 곱하고 결괏값을 반환하는 함수를 만든 후 10과 20을 곱한 결괏값을 콘솔 창에 표시하는 코드를 작성하시오.** 
+**1.다음 중 코드에서 사용한 함수 정의 방법을 모두 고르세요.** 
+<br>
+
+```js
+const add = function(){};
+```
+<br>
+① 함수 표현식
+<br>
+② 함수 선언문
+<br>
+③ 화살표 함수
+<br>
+④ 네이밍 함수
+<br>
+⑤ 익명 함수
 <br>
 <br>
 <br>
 ✔️
-```js
-function calc(a,b){
-  let result = a*b;
-  console.log(`두 수의 곱: ${result}`);
-}
-calc(10,20);
-```
+
 <br>
-![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0319_1.PNG?raw=true)
+<span style="color: red;">① 함수 표현식</span>
+
+<br>
+❖ 변수로 저장할 수 있으며, 이 변수는 함수처럼 사용 가능해진다.
+<br>
+
+② 함수 선언문
+<br>
+
+❖ `function`으로 시작한다.
+<br>
+<br>
+
+③ 화살표 함수 
+
+<br>
+❖ (매개변수) => {함수 내용}
+<br>
+
+④ 네이밍 함수
+<br>
+
+<span style="color: red;">⑤ 익명 함수</span>
+<br>
+❖ var 변수명 = function(매개변수){실행문;};
 <br>
 <br>
 
