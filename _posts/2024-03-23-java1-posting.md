@@ -35,7 +35,6 @@ const add = function(){};
 
 <br>
 <span style="color: red;">① 함수 표현식</span>
-
 <br>
 ❖ 변수로 저장할 수 있으며, 이 변수는 함수처럼 사용 가능해진다.
 <br>
