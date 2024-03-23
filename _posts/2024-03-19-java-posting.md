@@ -102,25 +102,45 @@ console.log(max);
 
 ## 문제3 && 문제 풀이3
 ___
-**3.콜백 함수를 이용해 사용자 이름과 나이를 입력하면 알림 창에 '안녕하세요? OOO님, 나이가 OO이군요.'라고 출력하는 코드를 작성하시오** <br>
-<br>
-<br>
-  ✔️ <br>
-  
-  ```js
-  function showData(name, age){
-  alert(`안녕하세요 ${name}님, 나이가 ${age}세시군요.` )
-}
-function getData(callback){
-  let userName = prompt("이름 입력하세요");
-  let userAge = prompt("나이를 입력하세요");
-
-  callback(userName,userAge);
-}
-getData(showData);
+**3.다음 중 코드를 실행했을 때 콘솔창에 출력될 값을 고르세요.** <br>
+```js
+var text = "outside";
+function printScope(){
+  console.log(text);
+  var text = "inside";
+};
+printScope();
 ```
 <br>
-![첨부3](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0319_3.PNG?raw=true)
+① outside
+<br>
+② inside
+<br>
+③ null
+<br>
+<span style="color: red;">④ undefined</span>
+<br>
+❖ 아직 값이 할당되기 전에 출력되므로 ``undefined`가 출력된다.
+<br>
+<br>
+
+⑤ " "
+<br>
+<br>
+<br>
+
+  ✔️ <br>
+  
+① outside
+<br>
+② inside
+<br>
+③ null
+<br>
+④ undefined
+<br>
+⑤ " "
+<br>
 <br>
 <br>
   
