@@ -3,7 +3,7 @@ categories: Java
 toc: true
 ---
 
-## 자바스크립트 함수와 스코프 연습문제(2)
+## 자바스크립트 DOM 기초 문제(1)
   <br> 
   <br>
   <br>
