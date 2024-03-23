@@ -187,8 +187,10 @@ console.log(result);
 
 ## 문제5 && 문제 풀이5
 ___
-**5.사용자가 프롬프트 창에 숫자를 입력했을 때 그 숫자를 함수로 넘겨주고,** <br> 
-**함수에서는 숫자가 양수인지, 음수인지, 또는 0인지 판단해서 알림 창에 보여주는 프로그램을 작성하시오.**
+**5. 원의 넓이를 구하는 공식은 (반지름) × (반지름) × (원주율)입니다.** <br>
+**원주율은 3.14라고 했을 때, 원의 반지름을 이용해 원의 넓이를 반환하는 함수를 만들어 보세요.**
+<br>
+*(콘솔 출력) 반지름 ○인 원의 넓이는 □ □ □입니다.)*
 <br>
 <br>
 <br>
@@ -213,7 +215,8 @@ if(!isNaN(number)){
 
 ```
 <br>
-![첨부4](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0319_4.PNG?raw=true)
+
+![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0323_1.png?raw=true)
 <br>
 <br>
 
