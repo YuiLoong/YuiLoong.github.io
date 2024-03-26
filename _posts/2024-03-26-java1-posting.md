@@ -141,18 +141,13 @@ ___
 
   ✔️ <br>
   
-① outside
-<br>
-② inside
-<br>
-③ null
-<br>
-<span style="color: red;">④ undefined</span>
-<br>
-❖ 아직 값이 할당되기 전에 출력되므로 ``undefined`가 출력된다.
-<br>
-<br>
-⑤ " "
+```js
+const ol = document.querySelector("ol");
+
+ol.onclick = () => {
+  ol.style.backgroundColor = "yellow";
+};
+```
 <br>
 <br>
 <br>
