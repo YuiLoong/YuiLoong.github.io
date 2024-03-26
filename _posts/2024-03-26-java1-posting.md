@@ -75,6 +75,23 @@ ___
 <br>
 ③ innerHTML - toggleClass()
 <br>
+④ innerText - classList.remove("fz20")
+<br>
+⑤ textContent - removeClass("fz20")
+<br>
+<br>
+<br>
+
+  ✔️ 
+  <br>
+**(가) - (나)**
+<br>
+① dataset - removeClass("fz20")
+<br>
+② dataset - setAttribute("fz20")
+<br>
+③ innerHTML - toggleClass()
+<br>
 
 <span style="color: red;">④ innerText - classList.remove("fz20")</span>
 <br>
@@ -84,24 +101,6 @@ ___
 <br>
 ⑤ textContent - removeClass("fz20")
 <br>
-<br>
-<br>
-
-  ✔️ 
-  <br>
-  
-```js
-function getArrayMaxNumber(arr){ 
-    let max = arr[0]; 
-    for(let i=0;i<arr.length;i++){
-        if(arr[i]>max){
-            max = arr[i];
-        }
-    }
-    return max;
-}
-const max = getArrayMaxNumber([10, 50, 30]);
-console.log(max);
 ```
 <br>
 <br>
