@@ -101,8 +101,6 @@ ___
 <br>
 ⑤ textContent - removeClass("fz20")
 <br>
-```
-<br>
 <br>
 <br>
 
