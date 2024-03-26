@@ -111,16 +111,30 @@ ___
 > ol 태그를 선택한다. <br>
 > ol 태그를 클릭했을 때 배경색을 yellowgreen으로 설정한다. <br>
 
-<br>
-① outside
-<br>
-② inside
-<br>
-③ null
-<br>
-④ undefined
-<br>
-⑤ " "
+```js
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>라면 끓이기</title>
+</head>
+<body>
+    <h1>라면을 끓이는 순서</h1>
+    <ol type="A">
+        <li>물을 끓인다.</li>
+        <li>라면과 스프를 넣는다.</li>
+        <li>파를 썰어 넣는다.</li>
+        <li>5분 후 <strong>맛있게</strong> 먹는다.</li>
+    </ol>
+    <script>
+    // 이곳에 코드를 작성하세요.
+    </script>
+</body>
+</html>
+```
+
 <br>
 <br>
 <br>
