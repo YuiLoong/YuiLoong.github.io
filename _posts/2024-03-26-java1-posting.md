@@ -33,17 +33,17 @@ ___
 <br>
 <br>
 <br>
-✔️ ❖
+✔️
 <br>
 <span style="color: red;">① document.getElementById("#text")</span>
 <br>
-❖ `text`선택자를 기준으로 접근
+  ❖ `text`선택자를 기준으로 접근
 <br>
 ② document.querySelector("p")
 <br>
 ③ document.querySelector(".box1 > p")
 <br>
-❖ box1 밑에 있는 자식(자손)으로 첫번째 요소가 도출
+  ❖ box1 밑에 있는 자식(자손)으로 첫번째 요소가 도출
 <br>
 ④ document.querySelectorAll("p")[0]
 <br>
