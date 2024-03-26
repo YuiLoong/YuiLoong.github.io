@@ -51,7 +51,7 @@ ___
 
 ## 문제2 && 문제 풀이2
 ___
-**2.다음과 같은 코드에서 sample text를 클릭했을 때, p 태그의 fz20 클래스 속성을 삭제하고,** <br>
+**2. 다음과 같은 코드에서 sample text를 클릭했을 때, p 태그의 fz20 클래스 속성을 삭제하고,** <br>
 **sample text를 change text로 변경하고 싶다면 (가), (나)에 들어갈 내용으로 맞게 짝지어진 것을 고르세요.**
 <br>
 
@@ -95,9 +95,9 @@ ___
 
 <span style="color: red;">④ innerText - classList.remove("fz20")</span>
 <br>
-❖ 기본 형태) *요소.classList.remov(클래스명);*
+  ❖ 기본 형태) *요소.classList.remov(클래스명);*
 <br>
-❖ 웹 요소.inner.Text - 웹 브라우저에서 보이는 내용만 가져옴
+  ❖ 웹 요소.inner.Text - 웹 브라우저에서 보이는 내용만 가져옴
 <br>
 ⑤ textContent - removeClass("fz20")
 <br>
@@ -108,15 +108,11 @@ ___
 
 ## 문제3 && 문제 풀이3
 ___
-**3.다음 중 코드를 실행했을 때 콘솔창에 출력될 값을 고르세요.** <br>
-```js
-var text = "outside";
-function printScope(){
-  console.log(text);
-  var text = "inside";
-};
-printScope();
-```
+**3. 자바스크립트 코드를 작성하여 리스트를 클릭했을 때 리스트의 배경색을 yellowgreen으로 변경하시오.** <br>
+> 힌트 <br>
+> ol 태그를 선택한다. <br>
+> ol 태그를 클릭했을 때 배경색을 yellowgreen으로 설정한다. <br>
+
 <br>
 ① outside
 <br>
