@@ -66,6 +66,24 @@ ___
     </script>
 ```
 <br>
+
+**(가) - (나)**
+<br>
+① dataset - removeClass("fz20")
+<br>
+② dataset - setAttribute("fz20")
+<br>
+③ innerHTML - toggleClass()
+<br>
+
+<span style="color: red;">④ innerText - classList.remove("fz20")</span>
+<br>
+❖ 기본 형태) *요소.classList.remov(클래스명);*
+<br>
+❖ 웹 요소.inner.Text - 웹 브라우저에서 보이는 내용만 가져옴
+<br>
+⑤ textContent - removeClass("fz20")
+<br>
 <br>
 <br>
 
