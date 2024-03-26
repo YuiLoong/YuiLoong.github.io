@@ -37,7 +37,7 @@ ___
 <br>
 <span style="color: red;">① document.getElementById("#text")</span>
 <br>
-  ❖ `text`선택자를 기준으로 접근
+  ❖ `text`선택자를 기준으로 접근/ 이때 `#text`가 아닌 `text`으로 바꿔준다.
 <br>
 ② document.querySelector("p")
 <br>
