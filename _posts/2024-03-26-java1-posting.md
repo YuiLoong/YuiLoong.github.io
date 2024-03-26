@@ -261,15 +261,20 @@ ___
   ✔️ <br>
   
 ```js
-function Circle(radius) {
-    const pi = 3.14;
-    const s = pi * radius * radius;
-    return s;
+document.querySelectorAll(".check");
+const check = document.querySelectorAll(".check");
+
+for(let i=0;i<check.length;i++){
+
+  
+    check[i].onclick = function() {
+      check[i].parentNode.style.color = "#ccc";
+      check[i].parentNode.style.textDecoration = "line-through";
+    }
+    
 }
 
-const radius = prompt("반지름 입력하세요"); // 반지름
-const s = Circle(radius); // 함수 호출을 통해 원의 넓이 계산
-console.log(`반지름 ${radius}인 원의 넓이는 ${s}입니다.`);
+var mother = check.parentNode;
 
 ```
 <br>
