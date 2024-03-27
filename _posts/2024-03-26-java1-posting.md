@@ -3,7 +3,8 @@ categories: Java
 toc: true
 ---
 
-## 자바스크립트 DOM 기초 문제(2)
+{:toc}
+## 자바스크립트 DOM 기초 문제(2) 
   <br> 
   <br>
   <br>
