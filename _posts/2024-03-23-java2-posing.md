@@ -6,6 +6,9 @@ toc: true
 ## 자바스크립트 DOM 기초 문제(1)
   <br> 
   <br>
+* this list will be replaced by the table of contents
+{:toc .large-only}  
+
   <br>
   <br>
  
