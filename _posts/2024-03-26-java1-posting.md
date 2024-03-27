@@ -3,7 +3,6 @@ categories: Java
 toc: true
 ---
 
-{:toc}
 ## 자바스크립트 DOM 기초 문제(2) 
   <br> 
   <br>
