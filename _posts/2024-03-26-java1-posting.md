@@ -2,6 +2,8 @@
 categories: Java
 toc: true
 ---
+* this unordered seed list will be replaced by the toc
+{:toc}
 
 ## 자바스크립트 DOM 기초 문제(2)
   <br> 
