@@ -252,3 +252,73 @@ var mother = check.parentNode;
 <br>
 <br>
 <br>
+
+## 문제6 && 문제 풀이6
+___
+**1. 06\quiz-1.html 문서에는 하나의 이미지가 삽입되어 있습니다. 이 이미지의 위에 마우스 포인터를 올려 놓았을 때** <br>
+**06\images\pic-6.jpg로 바뀌었다가 마우스 포인터를 다른 곳으로 이동하면 06\images\pic-1.jpg로 바뀌는 소스를 작성.** <br>
+
+>**사용할 파일** <br>
+>06\quiz-1.html <br>
+>06\js\quiz-1.js (신규 작성) <br>
+<br>
+>**힌트** <br>
+>06\quiz-1.html 문서에서 <img> 태그에는 id나 class가 없습니다.<br>
+>태그 이름을 사용하거나 2개 이상의 선택자를 연결한 후 이미지를 가져와서 변수에 저장합니다. <br>
+>마우스 포인터를 이미지의 위에 올려 놓을 때는 mouseover 이벤트가, 마우스 포인터를 다른 곳으로 이동할 때는 mouseout 이벤트가 발생합니다.<br>
+>이벤트가 발생했을 때 이미지의 src 속성값을 바꿉니다. <br>
+<br>
+<br>
+✔️
+<br>
+```js
+ <style>
+    #container {
+      width: 600px;
+      margin: 20px auto;
+    }
+    h1 {
+      font-size:1.5rem;
+      text-align:center;
+      margin-bottom:20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <h1>마우스 오버하면 이미지 바꾸기</h1>
+    <img src="images/pic-1.jpg" alt="">
+  </div>
+  <script>
+    const img = document.querySelector("img");
+    img.addEventListener("mouseover", () => {
+      img.src = "images/pic-6.jpg";
+    });
+    img.addEventListener("mouseout", () => {
+      img.src = "images/pic-1.jpg";
+    });
+  </script>
+</body>
+```
+<br>
+<br>
+
+## 문제7 && 문제 풀이7
+___
+**1. 06\js\event-2.js 나 event-3.js 를 참고해서 [Click] 버튼을 클릭했을 때 문서의 배경색은 #222로, 글자색은 #fff로 변경하는 소스를 작성해 보세요.** <br>
+**이때 웹 문서에 약간의 텍스트가 있어야 글자색이 바뀌는 것을 확인할 수 있는데, 문서의 텍스트는 직접 입력하세요.** <br>
+**작성할 파일 - 06\q0.html, 06\js\q01.js** <br>
+<br>
+<br>
+✔️
+<br>
+```js
+ <script>
+    const button = document.querySelector("button");
+    button.addEventListener("click",() => {
+      document.body.classList.toggle("convert");
+    })
+  </script>
+```
+<br>
+<br>
