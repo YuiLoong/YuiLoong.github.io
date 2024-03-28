@@ -21,13 +21,18 @@ ___
 <br>
 ✔️
 <br>
+
 ```js
- <script>
-    const button = document.querySelector("button");
-    button.addEventListener("click",() => {
-      document.body.classList.toggle("convert");
-    })
+ <body>
+  <h1>문제 1번입니다.</h1>
+  <button>클릭하세요</button>
+  <script>
+    document.querySelector("button").onclick = () =>{
+      document.body.style.backgroundColor = "#222";
+      document.body.style.color = "#fff";
+    }
   </script>
+</body>
 ```
 <br>
 <br>
