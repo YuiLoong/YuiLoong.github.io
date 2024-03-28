@@ -34,58 +34,25 @@ ___
 
 ## 문제2 && 문제 풀이2
 ___
-**2. 다음과 같은 코드에서 sample text를 클릭했을 때, p 태그의 fz20 클래스 속성을 삭제하고,** <br>
-**sample text를 change text로 변경하고 싶다면 (가), (나)에 들어갈 내용으로 맞게 짝지어진 것을 고르세요.**
+**2. 06\js\event-2.js 나 event-3.js 를 참고해서 [Click] 버튼을 클릭했을 때 문서의 배경색은 #222로, 글자색은 #fff로 변경하는 소스를 작성해 보세요.** <br>
+**이때 웹 문서에 약간의 텍스트가 있어야 글자색이 바뀌는 것을 확인할 수 있는데, 문서의 텍스트는 직접 입력하세요.** <br>
+**작성할 파일 - 06\q0.html, 06\js\q01.js** <br>
 <br>
-
+<br>
+✔️
+<br>
 ```js
-   <p id="text" class="red-color fz20">sample text</p>
-    <script>
-        const pEl = document.querySelector("#text");
-        pEl.onclick = () => {
-            pEl.(가) = "change text"; 
-            pEl.(나);
-        }
-    </script>
+ <script>
+    const button = document.querySelector("button");
+    button.addEventListener("click",() => {
+      document.body.classList.toggle("convert");
+    })
+  </script>
 ```
 <br>
-
-**(가) - (나)**
-<br>
-① dataset - removeClass("fz20")
-<br>
-② dataset - setAttribute("fz20")
-<br>
-③ innerHTML - toggleClass()
-<br>
-④ innerText - classList.remove("fz20")
-<br>
-⑤ textContent - removeClass("fz20")
-<br>
 <br>
 <br>
 
-  ✔️ 
-  <br>
-**(가) - (나)**
-<br>
-① dataset - removeClass("fz20")
-<br>
-② dataset - setAttribute("fz20")
-<br>
-③ innerHTML - toggleClass()
-<br>
-
-<span style="color: red;">④ innerText - classList.remove("fz20")</span>
-<br>
-  ❖ 기본 형태) *요소.classList.remov(클래스명);*
-<br>
-  ❖ 웹 요소.inner.Text - 웹 브라우저에서 보이는 내용만 가져옴
-<br>
-⑤ textContent - removeClass("fz20")
-<br>
-<br>
-<br>
 
 ## 문제3 && 문제 풀이3
 ___
@@ -255,7 +222,7 @@ var mother = check.parentNode;
 
 ## 문제6 && 문제 풀이6
 ___
-**1. 06\quiz-1.html 문서에는 하나의 이미지가 삽입되어 있습니다. 이 이미지의 위에 마우스 포인터를 올려 놓았을 때** <br>
+**6. 06\quiz-1.html 문서에는 하나의 이미지가 삽입되어 있습니다. 이 이미지의 위에 마우스 포인터를 올려 놓았을 때** <br>
 **06\images\pic-6.jpg로 바뀌었다가 마우스 포인터를 다른 곳으로 이동하면 06\images\pic-1.jpg로 바뀌는 소스를 작성.** <br>
 
 >**사용할 파일** <br>
@@ -305,9 +272,17 @@ ___
 
 ## 문제7 && 문제 풀이7
 ___
-**1. 06\js\event-2.js 나 event-3.js 를 참고해서 [Click] 버튼을 클릭했을 때 문서의 배경색은 #222로, 글자색은 #fff로 변경하는 소스를 작성해 보세요.** <br>
-**이때 웹 문서에 약간의 텍스트가 있어야 글자색이 바뀌는 것을 확인할 수 있는데, 문서의 텍스트는 직접 입력하세요.** <br>
-**작성할 파일 - 06\q0.html, 06\js\q01.js** <br>
+**7. 이벤트를 활용해 따라 표시했다가 감추는 메뉴를 만들어 보자. 여기에서는 아이콘을 클릭하면 메뉴가 표시되고,** <br>
+**다시 클릭하면 메뉴가 숨겨지는 예제를 만들 것이다. 06\css\solution-2.css 파일에는** <br>
+**버튼과 메뉴에서 사용할 .active 스타일이 미리 만들어져 있습니다. 버튼을 클릭할 때마다 변수와 메뉴에 .active 스타일을 토글하는 소스를 만들기** <br>
+>**사용할 파일** <br>
+>06\quiz-2.html <br>
+>06\js\quiz-2.js (신규 작성) <br>
+<br>
+>**힌트** <br>
+>웹 문서에 연결된 외부 스타일 시트 파일에 button.active와 nav.active 스타일이 미리 만들어져 있습니다. <br>
+>버튼과 메뉴를 가져와서 각각 변수로 저장합니다.<br>
+>버튼에 click 이벤트가 발생했을 때 실행할 함수를 연결하는데, 이 함수에서는 버튼과 메뉴에 active 클래스 스타일을 토글합니다. <br>
 <br>
 <br>
 ✔️
