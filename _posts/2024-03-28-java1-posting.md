@@ -61,40 +61,12 @@ ___
 
 ## 문제3 && 문제 풀이3
 ___
-**3. 자바스크립트 코드를 작성하여 리스트를 클릭했을 때 리스트의 배경색을 yellowgreen으로 변경하시오.** <br>
-> 힌트 <br>
-> ol 태그를 선택한다. <br>
-> ol 태그를 클릭했을 때 배경색을 yellowgreen으로 설정한다. <br>
-
-```js
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width", initial-scale="1.0">
-    <title>라면 끓이기</title>
-</head>
-<body>
-    <h1>라면을 끓이는 순서</h1>
-    <ol type="A">
-        <li>물을 끓인다.</li>
-        <li>라면과 스프를 넣는다.</li>
-        <li>파를 썰어 넣는다.</li>
-        <li>5분 후 <strong>맛있게</strong> 먹는다.</li>
-    </ol>
-    <script>
-    // 이곳에 코드를 작성하세요.
-    </script>
-</body>
-</html>
-```
-
-<br>
+**3. 모달 박스 만들기 실습.** <br>
 <br>
 <br>
 
-  ✔️ <br>
+  ✔️ 
+  <br>
   
 ```js
 const ol = document.querySelector("ol");
@@ -152,52 +124,9 @@ ___
 
 ## 문제5 && 문제 풀이5
 ___
-**5. 아래 힌트를 참고해 항목 앞에 있는 체크 표시를 누르면 항목 텍스트의 글자가** <br>
-**회색(#ccc)으로 바뀌면서 가로줄이 그려지도록 자바스크립트 코드를 작성하시오.**
+**5. 자바스크립트로 캐러셀 만들기 실습** 
 <br>
 ![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0326_1.png?raw=true)
-<br>
-<br>
-```js
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>연습문제 1</title>
-	<style>
-		ul{
-			list-style: none;
-		}
-		li {
-			font-size:20px; 
-			line-height: 35px;
-		}
-		.check {			
-			color:#ccc;
-			font-size:20px;
-			margin-right:25px;
-		}
-		.check:hover {
-			color:#222;
-		}
-	</style>
-</head>
-<body>
-	<h1>할 일 목록</h1>
-	<ul>
-		<li><span class="check">&check;</span>할 일 1 </li>
-		<li><span class="check">&check;</span>할 일 2 </li>
-		<li><span class="check">&check;</span>할 일 3 </li>
-		<li><span class="check">&check;</span>할 일 4 </li>
-		<li><span class="check">&check;</span>할 일 5 </li>
-	</ul>
-    <script>
-        /* 이곳에 작성하시오 */
-	</script>
-</body>
-</html>
-```
 <br>
 <br>
 <br>
