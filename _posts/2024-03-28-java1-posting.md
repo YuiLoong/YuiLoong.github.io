@@ -18,7 +18,7 @@ ___
 **이때 웹 문서에 약간의 텍스트가 있어야 글자색이 바뀌는 것을 확인할 수 있는데, 문서의 텍스트는 직접 입력하세요.** <br>
 **작성할 파일 - 06\q0.html, 06\js\q01.js** <br>
 <br>
-
+<br>
 ✔️
 <br>
 ```js
@@ -137,55 +137,44 @@ ol.onclick = () => {
   
 ## 문제4 && 문제 풀이4
 ___
-**4. 다음 코드의 입력 항목 중 나이 항목의 값을 가져오는 코드를 고르세요.** <br>
+**4. 06\js\event-6.js 파일을 참고해 사각형 영역에서 마우스를 움직일 때** <br>
+**즉, mousemove 이벤트가 발생할 때 이벤트의 발생 위치를 콘솔 창에 보여주는 소스를 작성해 보세요** <br>
+> mouse 이벤트 종류는 p.194 표 5-2 참고 <br>
+> 작성파일 <br>
+ - 06\q04.html (06\event-6.html을 복사해 수정) <br>
+ - 06\js\q06.js <br>
 
-```js
-<form name="frm1">
-  <label for="uname">이름</label>
-  <input type="text" id="uname" name="uname">
-  <label for="age">나이</label>
-  <input type="text" id="age" name="age">
-  <button type="submit">전송</button>
-</form>
-```
-<br>
-① document.frm1.age.value
-<br>
-② document.forms.age.value
-<br>
-③ document.forms[0].uname.value
-<br>
-④ document.frm1.elements[0].value
-<br>
-⑤ document.forms[0].elements[0].value
-<br>
 <br>
 <br>
 ✔️ 
 <br>
-<span style="color: red;">① document.frm1.age.value</span>
-<br>
-② document.forms.age.value
-<br>
-③ document.forms[0].uname.value
-<br>
-  ❖ 이름 값이 나옴
-<br>
-④ document.frm1.elements[0].value
-<br>
-  ❖ 이름 값이 나옴
-<br>
-⑤ document.forms[0].elements[0].value
-<br>
-  ❖ 이름 값이 나옴
-<br>
+```js
+<link rel="stylesheet" href="css/main.css">
+  <style>
+    p {
+      font-size:1.2rem;
+      margin-bottom:20px;
+    }
+    #box{
+      width:200px;
+      height:200px;
+      border:1px solid #222;
+      border-radius:5%;
+    }
 
-④ 30</span>
-<br>
-❖ a=10, b=20 값이 들어가서 dosum()함수 실행.
-<br>
-<br>
-⑤ SyntaxError
+  </style>
+</head>
+<body>
+  <p>사각형 내부를 클릭해 보세요</p>
+  <div id="box"></div>
+  <script>
+    const box = document.querySelector("#box");
+    box.addEventListener("mousemove",(e)=>{
+      console.log(`(${e.pageX},${e.pageY})`);
+    })
+  </script>
+</body>
+```
 <br>
 <br>
 
