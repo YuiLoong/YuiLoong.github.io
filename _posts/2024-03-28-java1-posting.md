@@ -233,11 +233,25 @@ ___
 <br>
 
 ```js
- <script>
-    const button = document.querySelector("button");
-    button.addEventListener("click",() => {
-      document.body.classList.toggle("convert");
-    })
+ <link rel="stylesheet" href="css/solution-2.css">
+</head>
+<body>
+  <button id="bttn">&#9776;</button>
+
+  <nav id="nav">
+    <ul>
+      <li><a href="#">Javascript</a></li>
+      <li><a href="#">Typescript</a></li>
+      <li><a href="#">Node.js</a></li>
+    </ul>
+  </nav>
+  <script>
+    const bttn = document.querySelector("#bttn");
+    const nav = document.querySelector("#nav");
+    bttn.addEventListener("click",() => {
+      bttn.classList.toggle("active");
+      nav.classList.toggle("active");
+    });
   </script>
 ```
 <br>
