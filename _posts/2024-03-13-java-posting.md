@@ -107,12 +107,14 @@ name = "최유이" /*자신의 이름을 할당함*/
 <br>
 <span style="color: #2D3748; background-color:#fff5b1;">코드를 보면 `C`와 `Java`와는 다르게 변수에 타입을 지정하지 않아도 된다.</span><br>
 변수을 선언했고 값도 할당했으므로 다음으로 콘솔창에 해당 텍스트가 출력되도록 코드를 넣어준다.<br>
+
 ```js
 name = "최유이"
 console.log("나는" + name + "입니다.")
 ```
 <br>
 조합하는 것은 쉽다. 규칙대로 텍스트는 큰따옴표로 감싸주고 `ooo`자리에 변수인 name을 넣어주면 된다.<br>
+
 ![첨부6](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0313_6.png?raw=true)
 <br>
 
