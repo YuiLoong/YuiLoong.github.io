@@ -153,20 +153,20 @@ ___
 
 1. prompt 문을 사용해 사용자 이름을 입력 받기<br>
 ```js
-prompt("사용자 이름을 입력하세요.")
+prompt("사용자 이름을 입력하세요.");
 ```
 <br>
 
 2.입력 받은 후 userName 변수에 저장하기<br>
 ```js
-let userName = prompt("사용자 이름을 입력하세요.")
+let userName = prompt("사용자 이름을 입력하세요.");
 ```
 prompt을 이용해 입력값을 받았으므로 이 입력값을 다시 userName에 넣어주는 코드를 작성하면 된다.<br>
 <br>
 
 3.템플릿 리터럴을 사용해 'OOO님, 반갑습니다!' 라고 콘솔창에 출력하는 코드를 작성하시오.<br>
 ```js
-console.log(`${userName}님, 반갑습니다!`)
+console.log(`${userName}님, 반갑습니다!`);
 ```
 콘솔창에 출력하면 되므로 `console.log`를 이용해주면 된다.
 
