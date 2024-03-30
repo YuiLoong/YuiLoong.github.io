@@ -121,30 +121,14 @@ ___
 ___
 **5. 자바스크립트로 캐러셀 만들기 실습** 
 <br>
-![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0326_1.png?raw=true)
-<br>
 <br>
 <br>
 
-  ✔️ <br>
+  ✔️ <br> 실습 따라하기이므로 결과물로 대체 <br>
   
-```js
-document.querySelectorAll(".check");
-const check = document.querySelectorAll(".check");
 
-for(let i=0;i<check.length;i++){
+![첨부2](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0330_2.png?raw=true)
 
-  
-    check[i].onclick = function() {
-      check[i].parentNode.style.color = "#ccc";
-      check[i].parentNode.style.textDecoration = "line-through";
-    }
-    
-}
-
-var mother = check.parentNode;
-
-```
 <br>
 <br>
 <br>
