@@ -66,15 +66,10 @@ ___
 <br>
 
   ✔️ 
-  <br>
+  <br> 실습 따라하기이므로 결과물로 대체 <br>
   
-```js
-const ol = document.querySelector("ol");
-
-ol.onclick = () => {
-  ol.style.backgroundColor = "yellow";
-};
-```
+  
+![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0330_1.png?raw=true)
 <br>
 <br>
 <br>
