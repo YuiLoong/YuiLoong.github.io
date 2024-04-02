@@ -131,7 +131,10 @@ ___
 
 **[결과창]** <br>
 
+
 ![첨부3](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0402_3.png?raw=true)
+<br>
+![첨부4](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0402_4.png?raw=true)
 <br>
 <br>
 
