@@ -91,44 +91,47 @@ ___
   
 ## 문제4 && 문제 풀이4
 ___
-**4. 06\js\event-6.js 파일을 참고해 사각형 영역에서 마우스를 움직일 때** <br>
-**즉, mousemove 이벤트가 발생할 때 이벤트의 발생 위치를 콘솔 창에 보여주는 소스를 작성해 보세요** <br>
-> mouse 이벤트 종류는 p.194 표 5-2 참고 <br>
-> 작성파일 <br>
- - 06\q04.html (06\event-6.html을 복사해 수정) <br>
- - 06\js\q06.js <br>
-
+**4. 나만의 도서 목록 만들기 실습** <br>
 <br>
 <br>
 ✔️ 
 <br>
-```js
-<link rel="stylesheet" href="css/main.css">
-  <style>
-    p {
-      font-size:1.2rem;
-      margin-bottom:20px;
-    }
-    #box{
-      width:200px;
-      height:200px;
-      border:1px solid #222;
-      border-radius:5%;
-    }
 
-  </style>
-</head>
-<body>
-  <p>사각형 내부를 클릭해 보세요</p>
-  <div id="box"></div>
-  <script>
-    const box = document.querySelector("#box");
-    box.addEventListener("mousemove",(e)=>{
-      console.log(`(${e.pageX},${e.pageY})`);
-    })
+**[코드]** <br>
+
+```js
+<script>
+    const title = document.querySelector("#title");
+    const author = document.querySelector("#author");
+    const save = document.querySelector("#save");
+    const bookList = document.querySelector("#bookList");
+
+    save.addEventListener("click", function(e){
+      e.preventDefault(); //form에 이벤트가 가는 것을 막는다.
+      const item = document.createElement("li");
+      item.innerHTML = `${title.value} - ${author.value}
+      <span class = "delButton">삭제 </span>`;
+      bookList.appendChild(item);
+      title.value ="";
+      author.value="";
+      
+      //삭제 버튼 만들기
+      const delButtons = document.querySelectorAll(".delButton");
+      delButtons[delButtons.length-1].addEventListener("click", function(){
+        this.parentNode.remove();
+      })
+      // for(let delButton of delButtons){
+      //   delButton.addEventListener("click", function(){
+      //     this.parentNode.remove();
+      //   })
+      // }
+    });
   </script>
-</body>
 ```
+
+**[결과창]** <br>
+
+![첨부3](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0402_3.png?raw=true)
 <br>
 <br>
 
