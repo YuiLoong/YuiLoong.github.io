@@ -44,22 +44,30 @@ ___
 
 ## 문제2 && 문제 풀이2
 ___
-**2. 06\js\event-2.js 나 event-3.js 를 참고해서 [Click] 버튼을 클릭했을 때 문서의 배경색은 #222로, 글자색은 #fff로 변경하는 소스를 작성해 보세요.** <br>
-**이때 웹 문서에 약간의 텍스트가 있어야 글자색이 바뀌는 것을 확인할 수 있는데, 문서의 텍스트는 직접 입력하세요.** <br>
-**작성할 파일 - 06\q0.html, 06\js\q01.js** <br>
+**2. 시간에 따라 다른 이미지 표시하기 실습** <br>
+
 <br>
 <br>
 ✔️
 <br>
+**[코드]** <br>
+
 ```js
  <script>
-    const button = document.querySelector("button");
-    button.addEventListener("click",() => {
-      document.body.classList.toggle("convert");
-    })
+    const today = new Date();
+    const hrs = today.getHours();
+    let newImg = document.createElement("img");
+    newImg.src = (hrs < 12)? "images/morning.jpg":"images/afternoon.jpg";
+    const container = document.querySelector("#container");
+    container.appendChild(newImg);
+
   </script>
 ```
 <br>
+
+**[결과창]** <br>
+
+![첨부2](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0402_2.png?raw=true)
 <br>
 <br>
 
