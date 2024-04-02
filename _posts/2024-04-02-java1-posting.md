@@ -185,21 +185,22 @@ ___
 
 ## 문제6 && 문제 풀이6
 ___
-**6. 06\quiz-1.html 문서에는 하나의 이미지가 삽입되어 있습니다. 이 이미지의 위에 마우스 포인터를 올려 놓았을 때** <br>
-**06\images\pic-6.jpg로 바뀌었다가 마우스 포인터를 다른 곳으로 이동하면 06\images\pic-1.jpg로 바뀌는 소스를 작성.** <br>
+**6. [클릭] 버튼을 클릭할 때마다 화면의 오른쪽에 '알림 내용이 표시됩니다.'라는 메시지를 표시하시오.** <br>
+**그리고 메시지가 계속 화면에 나타나면 불편하므로 메시지가 3초 후에 자동으로 삭제되도록** <br>
 
 >**사용할 파일** <br>
 
- * 06\quiz-1.html <br>
- * 06\js\quiz-1.js (신규 작성) <br>
+ * 07\quiz-2.html <br>
+ * 07\js\quiz-2.js (신규 작성) <br>
 <br>
 
 >**힌트** <br>
 
- * 06\quiz-1.html 문서에서 <img> 태그에는 id나 class가 없습니다.<br>
- * 태그 이름을 사용하거나 2개 이상의 선택자를 연결한 후 이미지를 가져와서 변수에 저장합니다. <br>
- * 마우스 포인터를 이미지의 위에 올려 놓을 때는 mouseover 이벤트가, 마우스 포인터를 다른 곳으로 이동할 때는 mouseout 이벤트가 발생합니다.<br>
- * 이벤트가 발생했을 때 이미지의 src 속성값을 바꿉니다. <br>
+ * 알림 내용이 표시될 영역(<div id="#noti-box"></div>)을 웹 브라우저 창의 오른쪽 위에 배치하고 여기에 새로운 요소를 연결한다.<br>
+ * 버튼을 클릭하면 div 요소를 만들고 innerText를 사용해서 추가한다. <br>
+ * 좀 더 보기 좋게 하기 위해 새로 만든 div 요소에 미리 만든 .noti 스타일을 추가한다. <br>
+ * 미리 만든 영역에 새로 만든 div 요소를 연결한다. <br>
+ * setTimeout() 메서드를 사용해서 새로 만든 div 요소가 3초 후에 삭제되도록 지정한다. <br>
 
 <br>
 <br>
@@ -241,49 +242,4 @@ ___
 <br>
 <br>
 
-## 문제7 && 문제 풀이7
-___
-**7. 이벤트를 활용해 따라 표시했다가 감추는 메뉴를 만들어 보자. 여기에서는 아이콘을 클릭하면 메뉴가 표시되고,** <br>
-**다시 클릭하면 메뉴가 숨겨지는 예제를 만들 것이다. 06\css\solution-2.css 파일에는** <br>
-**버튼과 메뉴에서 사용할 .active 스타일이 미리 만들어져 있습니다. 버튼을 클릭할 때마다 변수와 메뉴에 .active 스타일을 토글하는 소스를 만들기** <br>
->**사용할 파일** <br>
-
- * 06\quiz-2.html <br>
- * 06\js\quiz-2.js (신규 작성) <br>
-<br>
-
->**힌트** <br>
-
- * 웹 문서에 연결된 외부 스타일 시트 파일에 button.active와 nav.active 스타일이 미리 만들어져 있습니다. <br>
- * 버튼과 메뉴를 가져와서 각각 변수로 저장합니다.<br>
- * 버튼에 click 이벤트가 발생했을 때 실행할 함수를 연결하는데, 이 함수에서는 버튼과 메뉴에 active 클래스 스타일을 토글합니다. <br>
-<br>
-<br>
-
-✔️
-<br>
-
-```js
- <link rel="stylesheet" href="css/solution-2.css">
-</head>
-<body>
-  <button id="bttn">&#9776;</button>
-
-  <nav id="nav">
-    <ul>
-      <li><a href="#">Javascript</a></li>
-      <li><a href="#">Typescript</a></li>
-      <li><a href="#">Node.js</a></li>
-    </ul>
-  </nav>
-  <script>
-    const bttn = document.querySelector("#bttn");
-    const nav = document.querySelector("#nav");
-    bttn.addEventListener("click",() => {
-      bttn.classList.toggle("active");
-      nav.classList.toggle("active");
-    });
-  </script>
-```
-<br>
-<br>
+**[결과창]** <br>
