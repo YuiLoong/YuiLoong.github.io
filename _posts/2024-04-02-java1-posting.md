@@ -140,15 +140,44 @@ ___
 
 ## 문제5 && 문제 풀이5
 ___
-**5. 자바스크립트로 캐러셀 만들기 실습** 
+**5. 스터디 그룹을 만들기 위해 참가자 명단을 작성하려 한다.** <br>
+**07\quiz-1.html에 필요한 양식이 미리 만들어져 있으므로 이름과 전공을 입력하면 그 값을 받아서 표에 표시하는 소스 코드를 작성하시오.**  
 <br>
 <br>
 <br>
 
-  ✔️ <br> 실습 따라하기이므로 결과물로 대체 <br>
+  ✔️ <br> 
   
+**[코드]** <br>
 
-![첨부2](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0330_2.png?raw=true)
+```js
+<script>
+    const username = document.querySelector("#username");
+    const major = document.querySelector("#major");
+    const bttn = document.querySelector("#container button");
+    const tbody = document.querySelector("#attendant > tbody");
+
+    bttn.addEventListener("click",function(e) {
+      e.preventDefault();
+      const trNode = document.createElement("tr");
+      const tdNode1 = document.createElement("td");
+      const tdNode2 = document.createElement("td");
+
+      tdNode1.innerText = username.value;
+      tdNode2.innerText = major.value;
+      trNode.appendChild(tdNode1);
+      trNode.appendChild(tdNode2);
+      tbody.appendChild(trNode);
+
+    })
+
+  </script>
+```
+<br>
+
+**[결과창]** <br>
+
+![첨부5](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0402_5.png?raw=true)
 
 <br>
 <br>
@@ -176,6 +205,8 @@ ___
 <br>
 ✔️
 <br>
+
+**[코드]** <br>
 
 ```js
  <style>
