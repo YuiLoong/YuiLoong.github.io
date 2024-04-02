@@ -334,7 +334,9 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-include-cache
   - jekyll-last-modified-at
-
+  - jekyll-paginate
+    paginate: 5
+    paginate_path: "/posts/page/:num"
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
