@@ -231,34 +231,22 @@ ___
 
 
 ```js
-import numpy as np
-import cv2
+ <script>
+    const box = document.querySelector("#noti-box");
+    const bttn = document.querySelector("#bttn");
 
-def onMouse(event, x,y,flags,param):
-    global title, pt
+    bttn.addEventListener("click",function(){
+      let noti = document.createElement("div");
+      noti.innerText = "알림 내용이 표시됩니다.";
+      box.appendChild(noti);
 
-    if event == cv2.EVENT_LBUTTONDOWN:
-        if pt[0] < 0: pt = (x,y)
-        else:
-            cv2.rectangle(image, pt, (x,y), (255,0,0),2)
-            cv2.imshow(title,image)
-            pt = (-1,1)
+      setTimeout(function(){
+        noti.remove();
+      },3000);
 
-    elif event == cv2.EVENT_RBUTTONDOWN:
-        if pt[0] <0: pt=(x,y)
-        else:
-            dx,dy = pt[0]-x, pt[1]-y
-            radius = int(np.sqrt(dx*dx + dy*dy))
-            cv2.circle(image, pt, radius,(0,0,255),2)
-            cv2.imshow(title,image)
-            pt = (-1,1)
+    });
 
-image = np.full((300,500,3),(255,255,255), np.uint8)
-pt = (-1,1)
-title = "Draw Event"
-cv2.imshow(title,image)
-cv2.setMouseCallback(title,onMouse)
-cv2.waitKey(0)
+  </script>
 
 ```
 d
@@ -266,3 +254,6 @@ d
 <br>
 
 **[결과창]** <br>
+
+![첨부7](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0402_7.png?raw=true)
+
