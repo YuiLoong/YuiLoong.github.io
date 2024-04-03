@@ -76,22 +76,31 @@ ___
 
 ```js
  <script>
-    const orderButton = document.querySelector("#order");
-    const orderInfo = document.querySelector("#orderInfo");
-    const title = document.querySelector("#container > h2");
-    orderButton.addEventListener("click", ()=> {
-      let newP = document.createElement("P");
-      let textNode = document.createTextNode(title.innerText);
-      newP.appendChild(textNode);
-      orderInfo.appendChild(newP);
-    })
+    function newRegister(){
+        const subject = document.querySelector("#subject").value;
+        const itemList = document.querySelector("#itemList");
+
+        const liNode = document.createElement("li");
+        // liNodeText = document.createTextNode(subject.innerText);
+
+        liNode.textContent = subject;
+
+        liNode.addEventListener("click", function(e){
+            e.preventDefault();
+            this.parentNode.removeChile(this);
+        });
+
+        itemList.appendChild(liNode);
+        document.querySelector("#subjet").value="";
+
+
+    }
   </script>
 ```
 <br>
 
 **[결과창]** <br> 
 
-![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0402_1.png?raw=true)
 <br>
 
 ## 문제2 && 문제 풀이2
