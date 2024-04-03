@@ -26,7 +26,7 @@ ___
 >**힌트** <br>
 
  * button 요소의 onclick 속성에 newRegister()라는 자바스크립트 함수가 할당되어 있으므로, <br>
- <script> 부분에 newRegister()라는 함수를 작성한다.<br>
+ `<script>` 부분에 `newRegister()`라는 함수를 작성한다.<br>
  * input 요소에 입력된 값을 가져온다. <br>
  * 출력할 요소로 itemList를 선택한다. <br>
  * ul 요소안에 놓일 요소이므로 li 노드를 생한다.<br>
@@ -35,7 +35,8 @@ ___
    자기자신을 삭제하는 코드는 자신의 부모를 찾아 자식으로서 자신을 삭제하는 것으로 익명함수로 처리한다. <br>
  * itemList의 자식 노드로 li 요소를 연결한다. <br>
  * 다음 사용을 위해 input 요소에 입력된 값은 지운다. <br>
-
+<br>
+	 
 ```js
 <!DOCTYPE html>
 <html lang="ko">
