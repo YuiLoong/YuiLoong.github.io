@@ -76,15 +76,35 @@ ___
 
 ## 문제3 && 문제 풀이3
 ___
-**3. 모달 박스 만들기 실습.** <br>
+**3. 07\insert.html 문서에서 [텍스트 추가] 버튼을 클릭하면 'Javascript" 텍스트 앞에 'Typescript"를 추가하는 자바스크립트 소스 작성** <br>
 <br>
 <br>
 
   ✔️ 
-  <br> 실습 따라하기이므로 결과물로 대체 <br>
+  <br> 
+**[코드]** <br>
+
+  ```js
+  <script>
+    let button = document.querySelector("button");
+
+    button.addEventListener("click",function(){
+      let tdNode = document.createElement("p");
+      let tdTextNode = document.createTextNode("Typerscript ");
+      tdNode.appendChild(tdTextNode);
+
+      let trNode = document.querySelectorAll("p")[2];
+      document.body.insertBefore(tdNode,trNode);
+    });
+  </script>
+```
+<br>
+
+**[결과창]** <br>
+
   
   
-![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0330_1.png?raw=true)
+![첨부6](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0402_6.png?raw=true)
 <br>
 <br>
 <br>
