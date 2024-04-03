@@ -110,7 +110,7 @@ ___
 **표를 구성하는 table, td, tr 요소의 관계를 잘 생각하고 노드를 추가하여 작성하세요.** <br>
 **여기에서는 작성한 소스가 완벽하지 않더라도 DOM을 사용해 표를 그리는 것에 집중해 만들어 보세요.** <br>
 
-힌트
+*힌트*
 
 1) table 요소 노드를 만듭니다.<br>
 
@@ -141,12 +141,37 @@ ___
 
 ```js
  <script>
-    const today = new Date();
-    const hrs = today.getHours();
-    let newImg = document.createElement("img");
-    newImg.src = (hrs < 12)? "images/morning.jpg":"images/afternoon.jpg";
-    const container = document.querySelector("#container");
-    container.appendChild(newImg);
+let bttn = document.querySelector("#bttn");
+bttn.addEventListener("click", function (event) {
+    event.preventDefault(); // 기본 이벤트 방지
+    let table = document.createElement("table");
+
+    // 입력한 행 개수만큼 반복
+    for (let i = 0; i < rCount.value; i++) {
+        // tr 요소노드 만들기
+        let tr = document.createElement("tr");
+    
+
+         // 입력한 열 개수만큼 반복
+         for (let j = 0; j < cCount.value; j++) {
+                // td 요소노드 만들기
+                let td = document.createElement("td");
+                // 텍스트 요소노드 
+                let text = document.createTextNode("가나다");
+                // 텍스트 노드를 td 자식으로 추가
+                td.appendChild(text);
+                // td 행의 자식으로 추가
+                tr.appendChild(td);
+            }
+
+            // tr 요소 노드를 table 요소 노드의 자식 노드
+            table.appendChild(tr);
+
+        var contents = document.querySelector("#contents");
+        contents.innerHTML = ""; // contents 요소 초기화
+        contents.appendChild(table);
+        }        
+    });
 
   </script>
 ```
@@ -154,6 +179,6 @@ ___
 
 **[결과창]** <br>
 
-![첨부2](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0402_2.png?raw=true)
+![첨부3](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0404_3.png?raw=true)
 <br>
 <br>
