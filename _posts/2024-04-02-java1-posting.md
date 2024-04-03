@@ -229,6 +229,7 @@ ___
 
 **[코드]** <br>
 
+
 ```js
 import numpy as np
 import cv2
@@ -258,7 +259,9 @@ title = "Draw Event"
 cv2.imshow(title,image)
 cv2.setMouseCallback(title,onMouse)
 cv2.waitKey(0)
+
 ```
+d
 <br>
 <br>
 
