@@ -26,9 +26,8 @@ ___
 <br>
 ✔️
 <br>
+
 **[코드]** <br>
-
-
 ```js
  let birthDay = new Date("0000-08-07")
 ```
