@@ -23,7 +23,7 @@ ___
 
 **[코드]** <br>
 ```js
- let birthDay = new Date("0000-08-07")
+let birthDay = new Date("0000-08-07")
 ```
 <br> 
 <br>
@@ -40,11 +40,11 @@ ___
 **[코드]** <br>
 
 ```js
- const firstDay = new Date("2024-01-01");
-    const today = new Date();
+const firstDay = new Date("2024-01-01");
+const today = new Date();
 
-    let diff = (today.getTime()-firstDay.getTime()) / (24*60*60*1000);
-    document.querySelector("#result").innerHTML = Math.round(diff);
+let diff = (today.getTime()-firstDay.getTime()) / (24*60*60*1000);
+document.querySelector("#result").innerHTML = Math.round(diff);
 ```
 <br>
 
