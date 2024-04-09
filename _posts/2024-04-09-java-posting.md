@@ -30,7 +30,7 @@ ___
 
 
 ```js
- let day = new Date("0000-08-07")
+ let birthDay = new Date("0000-08-07")
 ```
 <br>
 
