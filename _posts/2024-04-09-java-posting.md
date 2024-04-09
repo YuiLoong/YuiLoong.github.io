@@ -121,3 +121,34 @@ ___
 ![첨부2](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0409_2.png?raw=true)
 <br>
 <br>
+
+
+## 문제5 && 문제 풀이5
+___
+**5. 웹 문서의 배경 이미지 무작위로 변경하기** <br>
+<br>
+<br>
+
+✔️
+<br>
+
+**[코드]** <br>
+
+```js
+<script>
+    const h1 = document.querySelector("h1");
+    const body = document.querySelector("body");
+
+    h1.addEventListener("click", function(){
+      const sel = Math.floor(Math.random()*5 +1);
+      body.style.backgroundImage = `url('images/bg-${sel}.jpg')`;  
+    });
+</script>
+```
+<br>
+
+**[결과창]** <br>
+
+![첨부3](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0409_3.png?raw=true)
+<br>
+<br>
