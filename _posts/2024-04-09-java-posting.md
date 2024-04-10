@@ -176,3 +176,44 @@ ___
 ![첨부3](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0409_3.png?raw=true)
 <br>
 <br>
+
+## 문제7 && 문제 풀이7
+___
+**4. 무작위로 이벤트 당첨자를 뽑는 프로그램을 만들려고 한다. 전체 몇 명인지,** <br>
+**그리고 그 중에서 몇 명을 뽑을 것인지 입력한 후 [추첨] 버튼을 클릭하면** <br>
+**해당 숫자만큼 당첨자를 뽑아서 화면에 표시하는 프로그램을 작성하시오.** <br>
+<br>
+<br>
+
+✔️
+<br>
+
+**[코드]** <br>
+
+```js
+const raffle = document.querySelector("#raffle");
+
+raffle.addEventListener("click", (e) => {
+  e.preventDefault();  
+  const seed = document.querySelector("#seed");
+  const total = document.querySelector("#total");
+  const result = document.querySelector("#result");
+  let  winner = "";
+
+  for(let i = 0; i < total.value; i++) {
+    let picked = Math.floor((Math.random() * seed.value) + 1);
+    winner += `${picked}번, `;      
+  }  
+  
+  result.innerText = `당첨자 : ${winner}`;
+  result.classList.add("show");
+});
+```
+<br>
+
+**[결과창]** <br>
+
+![첨부5](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0409_5.png?raw=true)
+<br>
+<br>
+<br>
