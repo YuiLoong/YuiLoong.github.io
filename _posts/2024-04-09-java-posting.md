@@ -122,6 +122,30 @@ ___
 <br>
 <br>
 
+## 문제4 && 문제 풀이4
+___
+**4. 08\js\circle.js에서 결괏값을 반올림하는 소스로 수정해 보세요.** <br>
+<br>
+<br>
+
+✔️
+<br>
+
+**[코드]** <br>
+
+```js
+// 반올림
+result.innerText = `
+    반지름 : ${radius},
+    원의 넓이 : ${Math.round(area(radius))},
+    원의 둘레 : ${Math.round(circum(radius).toFixed(3))}
+  `;
+```
+<br>
+<br>
+<br>
+
+
 
 ## 문제5 && 문제 풀이5
 ___
