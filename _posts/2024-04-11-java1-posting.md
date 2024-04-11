@@ -144,7 +144,8 @@ result.innerText = `
 
 ## 문제5 && 문제 풀이5
 ___
-**5. 웹 문서의 배경 이미지 무작위로 변경하기** <br>
+**5. Pet 클래스를 만든 후 인스턴스 객체를 만들어 보세요. 이때 Pet 클래스는 name과 color 프로퍼티, run() 메서드를 가지고 있습니다.** <br>
+**그리고 run() 메서드는 반려동물의 이름과 함께 'is running.'이라는 문자열을 알림 창에 표시하도록 정의합니다.** <br>
 <br>
 <br>
 
@@ -155,28 +156,33 @@ ___
 
 ```js
 <script>
-    const h1 = document.querySelector("h1");
-    const body = document.querySelector("body");
+  class Pet{
+    constructor(name,color){
+      this.name = name;
+      this.color = color;
+    }
+    run() {
+      alert(`${this.name} is running`);
+    }
+  }
 
-    h1.addEventListener("click", function(){
-      const sel = Math.floor(Math.random()*5 +1);
-      body.style.backgroundImage = `url('images/bg-${sel}.jpg')`;  
-    });
+  let myPet = new Pet("온유","초록색");
+  myPet.run();
 </script>
 ```
 <br>
 
 **[결과창]** <br>
 
-![첨부3](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0409_3.png?raw=true)
+![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0411_1.png?raw=true)
 <br>
 <br>
 
-## 문제7 && 문제 풀이7
+## 문제6 && 문제 풀이6
 ___
-**7. 무작위로 이벤트 당첨자를 뽑는 프로그램을 만들려고 한다. 전체 몇 명인지,** <br>
-**그리고 그 중에서 몇 명을 뽑을 것인지 입력한 후 [추첨] 버튼을 클릭하면** <br>
-**해당 숫자만큼 당첨자를 뽑아서 화면에 표시하는 프로그램을 작성하시오.** <br>
+**6. 5번에서 만들었던 Pet 클래스를 상속받는 Cat 클래스를 만들어 보세요.** <br>
+**이때 Cat 클래스에는 고양이 품종을 나타내는 breed라는 프로퍼티를 추가하고 객체의 이름과 색상, 품종을 표시하는 viewInfo() 메서드도 추가합니다.** <br>
+**그리고 Cat 클래스의 인스턴스를 만들고 인스턴스 객체에서 viewInfo() 메서드를 실행해 보세요.** <br>
 <br>
 <br>
 
@@ -186,29 +192,38 @@ ___
 **[코드]** <br>
 
 ```js
-const raffle = document.querySelector("#raffle");
+ <script>
+  class Pet{
+    constructor(name,color){
+      this.name = name;
+      this.color = color;
+    }
+    run() {
+      alert(`${this.name} is running`);
+    }
+  }
 
-raffle.addEventListener("click", (e) => {
-  e.preventDefault();  
-  const seed = document.querySelector("#seed");
-  const total = document.querySelector("#total");
-  const result = document.querySelector("#result");
-  let  winner = "";
+  // let myPet = new Pet("온유","초록색");
+  // myPet.run();
 
-  for(let i = 0; i < total.value; i++) {
-    let picked = Math.floor((Math.random() * seed.value) + 1);
-    winner += `${picked}번, `;      
-  }  
-  
-  result.innerText = `당첨자 : ${winner}`;
-  result.classList.add("show");
-});
+  class Cat extends Pet{
+      constructor(name, color, bread){
+        super(name, color);
+        this.breed = bread;
+      }
+      viewInfo() {
+        alert(`이름: ${this.name}, 품종: ${this.breed}, 색상: ${this.color}`);
+      }
+    }
+    let myCat = new Cat("고양이","삼색","삼색고양이");
+    myCat.viewInfo();
+</script>
 ```
 <br>
 
 **[결과창]** <br>
 
-![첨부5](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0409_5.png?raw=true)
+![첨부2](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0411_2.png?raw=true)
 <br>
 <br>
 <br>
