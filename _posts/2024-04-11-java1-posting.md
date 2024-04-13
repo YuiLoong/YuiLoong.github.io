@@ -76,7 +76,7 @@ button.addEventListener("click", function (event) {
 
 **[결과창]** <br>
 
-![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0409_1.png?raw=true)
+![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0409_6.png?raw=true)
 <br>
 <br>
 
