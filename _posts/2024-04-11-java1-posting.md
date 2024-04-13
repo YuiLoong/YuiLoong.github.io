@@ -82,7 +82,7 @@ button.addEventListener("click", function (event) {
 
 ## 문제3 && 문제 풀이3
 ___
-**3. 디지털 시계 만들기** <br>
+**3. [실습] 프로토타입을 상속하는 새로운 객체 만들기** <br>
 <br>
 <br>
 
@@ -92,59 +92,36 @@ ___
 **[코드]** <br>
 
 ```js
-<script>
-    function display() {
+function Book (title, price) {
+  this.title = title;
+  this.price = price;
+}
 
-      const today = new Date(); //현재 날짜
-      const displayDate = document.querySelector("#today");
-      const displayTime = document.querySelector("#clock");
+Book.prototype.buy = function() {
+  console.log(`${this.title}을(를) ${this.price}원에 구매하였습니다.`);  
+}
 
-      let day = ""; //요일
-      switch(today.getDay()){
-        case 0:
-          day = "일";break;
-        case 1:
-          day = "월";break;
-        case 2:
-          day = "화";break;
-        case 3:
-          day = "수";break;
-        case 4:
-          day = "목";break;
-        case 5:
-          day = "금";break;
-        case 6:
-          day = "토";break;
+const book1 = new Book("ABCDE", 10000);   
+book1.buy();  // Book 객체의 buy() 메서드 사용
 
-      }
-    
-      let text = `${today.getFullYear()}년 ${today.getMonth()+1}월 ${today.getDate()}일 ${day}요일`;
-      displayDate.innerHTML = text; //날짜 찍기
+// 기존 객체를 확장해서 새로운 객체 만들기
+function Textbook(title, price, major) {
+  Book.call(this, title, price);   // 기존 객체의 프로퍼티 재사용
+  this.major = major;               // 새로운 프로퍼티 정의
+}
 
-      let h = today.getHours(); //시간
-      const ampm = (h < 12) ? "AM" : "PM";
-      h = (h > 12) ? h -12 : h; //13시 이후 처리 
-      h = (h == 0)? 12 : h; //시간이 두자리 수, 한자리 수처리
+Textbook.prototype.buyTextbook = function() {   // 새로운 메서드 정의
+  console.log(`${this.major} 전공 서적, ${this.title}을 구매했습니다.`);
+}
 
-      const hStr = (h < 10 ) ? "0"+h: ""+h;
-      let min = today.getMinutes();
-      const minstr = (min < 10)? "0"+min : ""+min;
-      let sec = today.getSeconds();
-      const secstr = (sec < 10)? "0"+sec : ""+sec;
+Object.setPrototypeOf(Textbook.prototype, Book.prototype);   // Textbook 프로토타입을 Book 프로토타입으로 연결
 
-      text = `${ampm} ${hStr}시 ${minstr} 분 ${secstr} 초`;
-      displayTime.innerHTML = text;
-    }
-    setInterval(display,1000);
-    
-   
-  </script>
+const book2 = new Textbook("알고리즘", 5000, "컴퓨터공학");
+book2.buyTextbook();     // Textbook 객체의 메서드 사용
+book2.buy();             // Book 객체의 메서드 사용
+
 ```
 <br>
-
-**[결과창]** <br>
-
-![첨부2](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0409_2.png?raw=true)
 <br>
 <br>
 
