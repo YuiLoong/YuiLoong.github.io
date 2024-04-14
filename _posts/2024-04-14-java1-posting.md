@@ -77,90 +77,37 @@ ___
 
 ## 문제3 && 문제 풀이3
 ___
-**3. [실습] 프로토타입을 상속하는 새로운 객체 만들기** <br>
+**3. 자바스크립트에서 객체를 생성하는 키워드로 알맞은 것은?** <br>
+
+➀  instance      ➁ object      ➂ new      ➃ create
+
+<br>
 <br>
 <br>
 
 ✔️
 <br>
 
-**[코드]** <br>
-
-```js
-function Book (title, price) {
-  this.title = title;
-  this.price = price;
-}
-
-Book.prototype.buy = function() {
-  console.log(`${this.title}을(를) ${this.price}원에 구매하였습니다.`);  
-}
-
-const book1 = new Book("ABCDE", 10000);   
-book1.buy();  // Book 객체의 buy() 메서드 사용
-
-// 기존 객체를 확장해서 새로운 객체 만들기
-function Textbook(title, price, major) {
-  Book.call(this, title, price);   // 기존 객체의 프로퍼티 재사용
-  this.major = major;               // 새로운 프로퍼티 정의
-}
-
-Textbook.prototype.buyTextbook = function() {   // 새로운 메서드 정의
-  console.log(`${this.major} 전공 서적, ${this.title}을 구매했습니다.`);
-}
-
-Object.setPrototypeOf(Textbook.prototype, Book.prototype);   // Textbook 프로토타입을 Book 프로토타입으로 연결
-
-const book2 = new Textbook("알고리즘", 5000, "컴퓨터공학");
-book2.buyTextbook();     // Textbook 객체의 메서드 사용
-book2.buy();             // Book 객체의 메서드 사용
-
-```
+답: 3번 new가 알맞다.
 <br>
 <br>
 <br>
 
 ## 문제4 && 문제 풀이4
 ___
-**4.[실습] 클래스 상속 연습하기** <br>
+**​4. 자바스크립트에서 키워드 this가 의미하는 것은?** <br>
+
+➀  현재 스크립트     ➁ 현재 문서      ➂ 현재 객체      ➃ 현재 브라우저
+<br>
 <br>
 <br>
 
 ✔️
 <br>
 
-**[코드]** <br>
-
-```js
-class BookC  {
-  constructor(title, price) {
-    this.title = title;
-    this.price = price; 
-  }
-  buy() {
-    console.log(`${this.title}을(를) ${this.price}원에 구매하였습니다.`);  
-  }
-}
-
-const book1 = new BookC("자료 구조", 15000);
-book1.buy();
-
-// 기존 클래스를 확장해서 새로운 클래스 선언하기
-class TextbookC extends BookC {
-  constructor(title, price, major) {
-    super(title, price);   // 기존 클래스의 프로퍼티 재사용
-    this.major = major;     // 새로운 프로퍼티 정의
-  }
-
-  buyTextbook () {   // 새로운 메서드 정의
-    console.log(`${this.major} 전공 서적, ${this.title}을 구매했습니다.`);
-  }
-}
-
-const book2 = new TextbookC("인공지능", 5000, "컴퓨터공학");
-book2.buyTextbook();
-book2.buy();
-```
+답: 3번 
+<br>
+해설: this는 해당 메서드를 호출한 현재 객체를 가리키므로
 <br>
 <br>
 <br>
@@ -169,45 +116,25 @@ book2.buy();
 
 ## 문제5 && 문제 풀이5
 ___
-**5. Pet 클래스를 만든 후 인스턴스 객체를 만들어 보세요. 이때 Pet 클래스는 name과 color 프로퍼티, run() 메서드를 가지고 있습니다.** <br>
-**그리고 run() 메서드는 반려동물의 이름과 함께 'is running.'이라는 문자열을 알림 창에 표시하도록 정의합니다.** <br>
+**5. 객체 dog에 color라는 속성을 저장하고자 한다. 올바르게 저장하는 문장은?** <br>
+
+➀  dog.color = 'orange';     ➁ dog[color] = 'orange';     ➂ dog_color = 'orange';     ➃ let dog.color = 'orange';
+<br>
 <br>
 <br>
 
 ✔️
 <br>
-
-**[코드]** <br>
-
-```js
-<script>
-  class Pet{
-    constructor(name,color){
-      this.name = name;
-      this.color = color;
-    }
-    run() {
-      alert(`${this.name} is running`);
-    }
-  }
-
-  let myPet = new Pet("온유","초록색");
-  myPet.run();
-</script>
-```
+답: 1
 <br>
-
-**[결과창]** <br>
-
-![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0411_1.png?raw=true)
+해설: dog 객체에 color라는 속성에 orange 값을 할당하는 문장은 1번이 올바르다.
 <br>
 <br>
 
 ## 문제6 && 문제 풀이6
 ___
-**6. 5번에서 만들었던 Pet 클래스를 상속받는 Cat 클래스를 만들어 보세요.** <br>
-**이때 Cat 클래스에는 고양이 품종을 나타내는 breed라는 프로퍼티를 추가하고 객체의 이름과 색상, 품종을 표시하는 viewInfo() 메서드도 추가합니다.** <br>
-**그리고 Cat 클래스의 인스턴스를 만들고 인스턴스 객체에서 viewInfo() 메서드를 실행해 보세요.** <br>
+**6. 사용자를 나타내는 객체를 생성하고자 한다. 객체는 아이디, 나이, 패스워드 속성을 가지고 있다.** <br>
+**{kim, 20, 1234} 값을 이용해 객체 하나를 생성한 후 객체의 모든 속성을 웹 페이지에 출력하는 코드를 작성하시오.** <br>
 <br>
 <br>
 
@@ -217,32 +144,11 @@ ___
 **[코드]** <br>
 
 ```js
- <script>
-  class Pet{
-    constructor(name,color){
-      this.name = name;
-      this.color = color;
-    }
-    run() {
-      alert(`${this.name} is running`);
-    }
-  }
-
-  // let myPet = new Pet("온유","초록색");
-  // myPet.run();
-
-  class Cat extends Pet{
-      constructor(name, color, bread){
-        super(name, color);
-        this.breed = bread;
-      }
-      viewInfo() {
-        alert(`이름: ${this.name}, 품종: ${this.breed}, 색상: ${this.color}`);
-      }
-    }
-    let myCat = new Cat("고양이","삼색","삼색고양이");
-    myCat.viewInfo();
-</script>
+const user = {
+    id: "kim",
+    age: 20,
+    password: "1234"
+};
 ```
 <br>
 
