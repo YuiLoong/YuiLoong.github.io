@@ -144,17 +144,32 @@ ___
 **[코드]** <br>
 
 ```js
+<body>
+    <div id="userInfo"></div>
+    <script>
+        // 사용자 객체 생성
 const user = {
     id: "kim",
     age: 20,
     password: "1234"
 };
+
+// HTML에 사용자 정보 출력
+const userInfoDiv = document.querySelector("#userInfo");
+userInfoDiv.innerHTML = `
+    <p>ID: ${user.id}</p>
+    <p>Age: ${user.age}</p>
+    <p>Password: ${user.password}</p>
+`;
+
+    </script>
+</body>
 ```
 <br>
 
 **[결과창]** <br>
 
-![첨부2](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0411_2.png?raw=true)
+![첨부2](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0414_1.png?raw=true)
 <br>
 <br>
 <br>
