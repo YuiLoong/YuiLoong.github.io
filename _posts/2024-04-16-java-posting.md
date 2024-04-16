@@ -220,4 +220,81 @@ ___
 <br>
 <br>
 
+## 문제12 && 문제 풀이12
+___
+**12. 전개 연산자를 사용해 vegitable 배열과 cheese 배열을 합친 후에 맨 마지막에 빵까지 합쳐서 cheeseBurger2 배열을 만들기** <br>
+<br>
+<br>
+✔️
+<br>
+**코드**
+<br>
 
+```js
+let cheeseBurger2 = [...vegitable, ...cheese,"빵"]
+```
+<br>
+<br>
+
+## 문제13 && 문제 풀이13
+___
+**13. slice() 함수를 사용해 colors 배열에서 blue와 white를 추출하시오.** <br>
+
+<br>
+<br>
+✔️
+<br>
+
+**코드**
+<br>
+```js
+let colors = ["red","green","blue","white","black"];
+let newColors = colors.slice(2,4);
+```
+<br>
+<br>
+<br>
+
+## 문제14 && 문제 풀이14
+___
+**14. 10\quiz-1.html 문서에는 [2, 4, 6, 8, 10]이라는 배열이 있는데,** <br>
+**이 배열을 화면에 표시하고 배열의 요소를 모두 더한 후 마지막에 결괏값을 추가하는 프로그램을 작성하시오.** <br>
+
+<br>
+<br>
+✔️
+<br>
+
+**코드**
+<br>
+```js
+<script>
+    const origin = document.querySelector("#origin");
+    const result = document.querySelector("#result");
+
+    function Arr(area, array){
+      let text = "<table><tr>";
+      for (let i=0; i<array.length;i++){
+        text += `<td>${array[i]}</td>`;
+      }
+      text += "</tr></table>";
+      area.innerHTML = text;
+    }
+    const arr = [2,4,6,8,10];
+    Arr(origin,arr);
+
+    let sum=0;
+    for(let i=0;i<arr.length;i++){
+      sum+=arr[i];
+    }
+    arr.push(sum);
+    Arr(result,arr);
+  </script>
+```
+<br>
+
+**결과창**
+![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0416_2.png?raw=true)
+<br>
+<br>
+<br>
