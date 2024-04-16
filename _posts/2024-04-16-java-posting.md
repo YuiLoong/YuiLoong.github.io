@@ -207,9 +207,17 @@ ___
 <br>
 ✔️
 <br>
+**코드**
+<br>
 
-**코드: https://cafe.naver.com/doitstudyroom.split("/");**
-**결과: ["https:","","cafe.naver.com","doitstudyroom"]**
+```js
+
+```
+<br>
+
+**결과창**
 <br>
 <br>
 <br>
+
+
