@@ -159,6 +159,8 @@ ___
 <br>
 
 **코드: https://cafe.naver.com/doitstudyroom.split("/");**
+<br>
+
 **결과: ["https:","","cafe.naver.com","doitstudyroom"]**
 <br>
 <br>
