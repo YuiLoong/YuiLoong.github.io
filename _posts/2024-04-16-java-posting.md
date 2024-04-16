@@ -193,8 +193,21 @@ ___
 <br>
 
 **결과창**
-
 <br>
 ![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0416_1.png?raw=true)
+<br>
+<br>
+
+## 문제11 && 문제 풀이11
+___
+**11. 영문자열의 첫 번째 글자를 대문자로 바꾸기** <br>
+<br>
+<br>
+✔️
+<br>
+
+**코드: https://cafe.naver.com/doitstudyroom.split("/");**
+**결과: ["https:","","cafe.naver.com","doitstudyroom"]**
+<br>
 <br>
 <br>
