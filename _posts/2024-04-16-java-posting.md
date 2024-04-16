@@ -164,21 +164,37 @@ ___
 <br>
 <br>
 
-## 문제8 && 문제 풀이8
+## 문제10 && 문제 풀이10
 ___
-**8. 다음 소스코드를 실행했을 때 결과값은?** <br>
-
-```js
-let arr = [0, 1, 2, 3, 4, 5];
-arr.slice(-1);
-```
+**10. 보안을 위해 이메일 주소의 일부 감추기** 
 <br>
 <br>
 <br>
 ✔️
 <br>
 
-**답: 5**
+**코드**
+```js
+<script>
+    let result = document.querySelector("#result");
+    const button = document.querySelector("button")
+    button.addEventListener("click", function(){
+    const email = document.querySelector("#userEmail").value;
+    let first = email.split("@");
+    let id = first[0];
+    let domain = first[1];
+
+    id = id.substring(0,3);
+    result.innerText = `${id} ...@${domain}`;
+
+    });
+  </script>
+```
 <br>
+
+**결과창**
+
+<br>
+![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0416_1.png?raw=true)
 <br>
 <br>
