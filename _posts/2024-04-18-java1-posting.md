@@ -99,30 +99,20 @@ document.write(sum/3);
   
 ## 문제4 && 문제 풀이4
 ___
-**4. 다음 코드를 실행하면 출력될 변수 result의 값을 고르세요.** <br>
+**4. 다음의 자바 스크립트 코드가 있을 때 아래 각 항목의 실행 결과 변수 x의 값은 무엇인가?** <br>
 
 ```js
-const result = (function(a, b){
-  function init(){
-    return doSum(a, b);
-  }
-  function doSum(a, b){
-    return a + b;
-  }
-  return init();
-})(10, 20);
-console.log(result);
+let text = "Web Programming";
 ```
 <br>
-① undefined
-<br>
-② null
-<br>
-③ 50
-<br>
-④ 30
-<br>
-⑤ SyntaxError
+|                  코드                 |      X 값         
+|:--------------------------------------|:-----------------
+| let x = text.length;                  | 15        
+| let x = text[2];                      | "b"               
+| let x = text.split(" ").length;       | 2
+| let x = text.replace("web", "HTML5"); | HTML5 Programing
+| let x = text.charAt(4);               | "P"
+
 <br>
 <br>
 ✔️ 
