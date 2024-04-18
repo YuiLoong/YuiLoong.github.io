@@ -68,43 +68,31 @@ let grades = new Array("A", "B", "C", "D");
 
 ## 문제3 && 문제 풀이3
 ___
-**3.다음 중 코드를 실행했을 때 콘솔창에 출력될 값을 고르세요.** <br>
+**3.주석에 맞게 다음 빈 칸을 채우시오.** <br>
 ```js
-var text = "outside";
-function printScope(){
-  console.log(text);
-  var text = "inside";
-};
-printScope();
+let ______________________________               // Array를 이용하여 크기가 3인 배열 money 생성
+_____________________________ = 5;               // money의 첫 번째 요소에 5 삽입
+_____________________________ = 7;               // money의 두 번째 요소에 7 삽입
+_____________________________ = -3;              // money의 세 번째 요소에 -3 삽입
+let sum = 0;
+for (let i=0; i<_______________; i++) sum += money[i];     // 배열 합 구하기
+document.write(________________);                // 평균 출력
 ```
-<br>
-① outside
-<br>
-② inside
-<br>
-③ null
-<br>
-④ undefined
-<br>
-⑤ " "
 <br>
 <br>
 <br>
 
   ✔️ <br>
   
-① outside
-<br>
-② inside
-<br>
-③ null
-<br>
-<span style="color: red;">④ undefined</span>
-<br>
-❖ 아직 값이 할당되기 전에 출력되므로 ``undefined`가 출력된다.
-<br>
-<br>
-⑤ " "
+```js
+let money = new Array(3);
+money[0] = 5;
+money[1] = 7;
+money[2] = -3;
+let sum = 0;
+for(let i=0; i<money.length;i++) sum+= money[i];
+document.write(sum/3);
+```
 <br>
 <br>
 <br>
