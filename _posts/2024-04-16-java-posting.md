@@ -211,12 +211,8 @@ ___
 <br>
 
 ```js
-
+const result = [string[0].toUpperCase(), ...string.slice(1)].join("");
 ```
-<br>
-
-**결과창**
-<br>
 <br>
 <br>
 
