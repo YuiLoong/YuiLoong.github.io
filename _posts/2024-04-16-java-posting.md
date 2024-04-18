@@ -296,3 +296,37 @@ ___
 <br>
 <br>
 <br>
+
+## 문제15 && 문제 풀이15
+___
+**15. 10\js\quiz-2.js 파일에 작성한 다음의 소스를 참고해서 tail() 함수를 작성하기** <br>
+**tail() 함수는 배열을 받아서 배열의 길이가 1보다 크면 첫 번째 요소를 뺀 나머지 요소를,** <br>
+**배열의 길이가 1이면 배열 전체를 반환합니다.** <br>
+
+<br>
+<br>
+✔️
+<br>
+
+**코드**
+<br>
+```js
+const origin = document.querySelector("#origin");
+const result = document.querySelector("#result");
+
+let numbers = [2, 4, 6, 8, 10];
+
+//함수 추가
+const tail = (arr => arr.length > 1 ? arr.slice(1) : arr);
+
+origin.innerText = numbers;
+result.innerText = tail(numbers);
+
+```
+<br>
+
+**결과창**
+<br>
+![첨부15](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0416_15.png?raw=true)
+<br>
+<br>
