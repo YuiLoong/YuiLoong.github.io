@@ -25,6 +25,40 @@ let [ , , fall,winter] = ["봄","여름","가을","겨울"]
 <br>
 <br>
 
+## 문제2 && 문제 풀이2
+___
+**2.[실습] 개설 요청 과목 정리하기** 
+<br>
+<br>
+<br>
+✔️
+
+```js
+const member1 = ["HTML", "CSS"];
+const member2 = ["CSS", "자바스크립트", "리액트"];
+const member3 = ["자바스크립트", "타입스크립트"];
+
+const subjects = [...member1, ...member2, ...member3];
+// console.log(subjects);
+
+const resultList = new Set();
+subjects.forEach(subject => {
+  resultList.add(subject);
+});
+// console.log(resultList);
+
+const result = document.querySelector("#result");
+result.innerHTML = `
+  <ul>
+  ${[...resultList]
+  .map(subject => `<li>${subject}</li>`)
+  .join("")}
+  </ul>
+`;
+```
+<br>
+<br>
+
 ## 문제3 && 문제 풀이3
 ___
 **3.자바스크립트를 사용해서 자동으로 복권 번호를 생성해 주는 프로그램을 작성하려 합니다.** <br>
