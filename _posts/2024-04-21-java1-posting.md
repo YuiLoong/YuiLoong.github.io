@@ -27,7 +27,51 @@ let cities = ["서울", "베를린", "리오데자네이루", "코펜하겐", "�
 
 <br>
 <br>
+
+**[코드]**
 <br>
+```js
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        container{
+            width:600px;
+            margin:20px auto;
+        }
+        h1 {
+            font-size:1.5em;
+        }
+        li {
+            font-size:1rem;
+            line-height: 2;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>문자열 배열 다루기</h1>
+        <ul id="result">
+        </ul>
+    </div>
+    <script>
+        // 이 곳에 작성하세요
+    </script>
+</body>
+</html>
+```
+<br>
+
+**[요구 결과]**
+<br>
+![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0421_1.png?raw=true)
+<br>
+<br>
+<br>
+
 ✔️
 
 ```js
