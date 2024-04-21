@@ -73,9 +73,39 @@ let cities = ["서울", "베를린", "리오데자네이루", "코펜하겐", "�
 <br>
 
 ✔️
+<br>
+
+**[코드]**
+<br>
 
 ```js
-let [ , , fall,winter] = ["봄","여름","가을","겨울"]
+<script>
+        let cities = ["서울", "베를린", "리오데자네이루", "코펜하겐", "로스엔젤레스"];
+
+        const result1 = document.querySelector("#result");
+        result1.innerHTML = `<li> 도시 전체 이름: ${cities.join()} </li>`; //1번
+
+        //2번
+        const long = cities.reduce((longest, current) => {
+            return current.length > longest.length ? current : longest;
+        }, "");
+
+        const result2 = document.createElement("li");
+        result2.textContent = `가장 긴 도시 이름: ${long}`;
+        result1.appendChild(result2);
+
+        //3번
+        cities.sort();
+        
+        const result3 = document.createElement("li");
+        result3.textContent = `가나다 순으로 먼저 나오는 도시 이름: ${cities[0]}`;
+        result1.appendChild(result3);
+    </script>
 ```
 <br>
+
+**[결과창]**
+<br>
+![첨부2](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0421_2.png?raw=true)
+
 <br>
