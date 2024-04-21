@@ -3,7 +3,7 @@ categories: Java
 toc: true
 ---
 
-## 자바스크립트 배열과 객체 더 깊게 살펴보 문제(2)
+## 자바스크립트 배열과 객체 더 깊게 살펴보기 문제(2)
 * this list will be replaced by the table of contents
 {:toc .large-only}
   <br> 
