@@ -37,4 +37,8 @@ ___
 <br>
 ✔️
 <br>
+사진으로 대체
+<br>
+<br>
 
+![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0423_1.png?raw=true)
