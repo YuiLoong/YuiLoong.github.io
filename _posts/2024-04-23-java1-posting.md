@@ -31,8 +31,10 @@ let member2 = JSON.parse(JSON.stringify(member1));
 
 ## 문제2 && 문제 풀이2
 ___
-**2.[실습] 개설 요청 과목 정리하기** 
+**2.[실습] JSON 자료를 가져와 표시하기 1** 
 <br>
 <br>
 <br>
 ✔️
+<br>
+
