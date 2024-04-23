@@ -97,3 +97,50 @@ ___
 <br>
 <br>
 
+## 문제5 && 문제 풀이5
+___
+**5. 12\quiz-2.html 문서에는 10보다 작은 수를 입력하는 텍스트 필드가 있습니다.** <br>
+**사용자가 숫자를 입력한 후 [입력] 버튼을 클릭했을 때 10보다 작은 수이면 화면에 표시하고, 10보다 큰 수를 입력했거나 아무 값도 입력하지 않았을 때,** <br>
+**또는 숫자가 아닌 다른 내용을 입력했을 때 예외를 처리하는 소스를 작성해 보세요.** <br>
+<br>
+<br>
+
+```js
+let member1 = {name: "도레미", age: 25}
+```
+
+<br>
+<br>
+✔️
+<br>
+
+**[코드]**
+<br>
+```js
+<script>
+    const bttn = document.querySelector("button");
+    bttn.addEventListener("click", function() {
+      let value = document.querySelector("#user-number").value;
+      try{
+        let num = parseInt(value);
+        if(num < 10){
+          document.querySelector("#result").innerHTML = num;
+        }else if(num >= 10){
+         throw "10보다 작은 수를 입력하세요";
+        }else{
+          throw "숫자를 입력하세요";
+        }
+      }catch(error){
+        alert(error);
+      }
+    });
+    
+  </script>
+```
+<br>
+
+**[결과창]**
+<br>
+
+![첨부3](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0423_3.png?raw=true)
+<br>
