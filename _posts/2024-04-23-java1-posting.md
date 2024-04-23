@@ -24,7 +24,7 @@ let member1 = {name: "도레미", age: 25}
 ✔️
 
 ```js
-let member2 = JSON.parse(JSON.stringifu(member1));
+let member2 = JSON.parse(JSON.stringify(member1));
 ```
 <br>
 <br>
