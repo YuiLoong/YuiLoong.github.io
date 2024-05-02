@@ -42,7 +42,7 @@ ___
 ___
 **2.localhost:8080/hellword.html로 접속했을 때 다음과 같이 출력되도록 만드시오.** 
 <br>
-![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0423_1.png?raw=true)
+![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0502_1.png?raw=true)
 
 <br>
 <br>
@@ -50,8 +50,6 @@ ___
 <br>
 <br>
 <br>
-
-![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0423_1.png?raw=true)
 
 
 <br>
