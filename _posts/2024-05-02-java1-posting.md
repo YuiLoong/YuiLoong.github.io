@@ -71,4 +71,6 @@ ___
 ![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0502_2.png?raw=true)
 
 <br>
+
+~~hell로 월드..? 뭐지.. 지옥시작~~
 <br>
