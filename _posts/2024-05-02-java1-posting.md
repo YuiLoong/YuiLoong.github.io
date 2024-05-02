@@ -49,7 +49,24 @@ ___
 <br>
 ✔️
 <br>
+
+**[코드]**
 <br>
+```js
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Hell로 월드!</h1>
+</body>
+</html>
+```
+<br>
+
+**[결과창]**
 
 ![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0502_2.png?raw=true)
 
