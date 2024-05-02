@@ -50,8 +50,7 @@ ___
 ✔️
 <br>
 <br>
-<br>
-
+![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0502_2.png?raw=true)
 
 <br>
 <br>
