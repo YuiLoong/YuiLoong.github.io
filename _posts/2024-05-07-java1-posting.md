@@ -46,7 +46,16 @@ ___
 
 **답**
 <br>
-4번
+ㄱ) 4번
+<br>
+ㄴ) 2번
+<br>
+ㄷ) 5번
+<br>
+ㄹ) 1번
+<br>
+ㅁ) 3번
+<br>
 <br>
 <br>
 
@@ -64,35 +73,14 @@ ___
 ④ 뷰 템플릿 페이지에서 변수를 사용하려면 모델에 변수가 등록돼 있어야 한다.
 
 <br>
-![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0502_1.png?raw=true)
-
 <br>
 <br>
 ✔️
 <br>
 
-**[코드]**
-<br>
-```js
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-    <h1>Hell로 월드!</h1>
-</body>
-</html>
-```
-<br>
-
-**[결과창]**
-
+**답**
 
 <br>
-
-~~hell로 월드..? 뭐지.. 지옥시작~~
 <br>
 
 ## 문제3 && 문제 풀이3
