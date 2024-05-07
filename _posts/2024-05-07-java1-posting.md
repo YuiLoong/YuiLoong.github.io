@@ -127,7 +127,9 @@ ___
 *사용할 뷰 템플릿 파일(quote.mustache)은 다음과 같다.*
 <br>
 <br>
-
+![첨부2](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0507_2.png?raw=true)
+<br>
+![첨부3](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0507_3.png?raw=true)
 <br>
 ✔️
 
