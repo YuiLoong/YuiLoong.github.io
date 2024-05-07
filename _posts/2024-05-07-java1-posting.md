@@ -1,0 +1,97 @@
+---
+categories: Java
+toc: true
+---
+
+## 스프링부트 2장 실습(1)
+* this list will be replaced by the table of contents
+{:toc .large-only}
+  <br> 
+  <br>
+  <br>
+  <br>
+
+## 문제1 && 문제 풀이1
+___
+**1. 다음 ㉠~㉤에 들어갈 알맞은 용어를 찾아 쓰세요.**
+<br>
+<br>
+
+( ㉠ )(이)란 웹 페이지를 일종의 틀로 만든 것이다.
+<br>
+( ㉡ )은/는 클라이언트의 요청을 받아 서버에서 이를 처리하는 역할을 한다.
+<br>
+( ㉢ )은/는 뷰 템플릿에서 사용되는 데이터를 관리하는 역할을 한다.
+<br>
+( ㉣ )은/는 이 클래스가 컨트롤러임을 선언한다.
+<br>
+( ㉤ )은/는 클라이언트의 URL 요청을 받아 특정 컨트롤러의 메서드가 처리하게 한다.
+<br>
+<br>
+① @Controller
+<br>
+② 컨트롤러
+<br>
+③ @GetMapping
+<br>
+④ 뷰 템플릿
+<br>
+⑤ 모델
+<br>
+<br>
+<br>
+
+✔️
+<br>
+
+**답**
+<br>
+4번
+<br>
+<br>
+
+## 문제2 && 문제 풀이2
+___
+**2. 다음 설명 중 옳지 않은 것을 고르세요.**
+<br>
+
+① 웹 브라우저는 서버로 URL 요청을 보내 결과 뷰 템플릿 페이지를 반환받는다.
+<br>
+② 컨트롤러의 메서드는 URL 요청을 받아 처리한 후 결과 뷰 템플릿 페이지를 반환한다.
+<br>
+③ 컨트롤러의 메서드 반환값은 뷰 템플릿 페이지의 확장자를 포함해 작성한다.
+<br>
+④ 뷰 템플릿 페이지에서 변수를 사용하려면 모델에 변수가 등록돼 있어야 한다.
+
+<br>
+![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0502_1.png?raw=true)
+
+<br>
+<br>
+✔️
+<br>
+
+**[코드]**
+<br>
+```js
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Hell로 월드!</h1>
+</body>
+</html>
+```
+<br>
+
+**[결과창]**
+
+![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0502_2.png?raw=true)
+
+<br>
+
+~~hell로 월드..? 뭐지.. 지옥시작~~
+<br>
