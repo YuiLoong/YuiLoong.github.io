@@ -89,7 +89,6 @@ ___
 
 **[결과창]**
 
-![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0502_2.png?raw=true)
 
 <br>
 
@@ -121,13 +120,14 @@ ___
 <br>
 <br>
 
-( ㉠ )(이)란 화면에 요소를 배치하는 것을 말한다. 웹 페이지는 같은 요소로도 어떻게 배치하느냐에 따라 다른 느낌을 줄 수 있다.
+![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0507_1.png?raw=true)
+
 <br>
-( ㉡ )(이)란 웹 페이지를 쉽게 만들 수 있도록 작성해 놓은 코드 모음으로 미리 작성된 HTML/CSS/자바스크립트 코드를 가져다 사용할 수 있다.
+
+*사용할 뷰 템플릿 파일(quote.mustache)은 다음과 같다.*
 <br>
-( ㉢ )(이)란 코드를 하나의 틀로 만들어 변수화하는 것을 말한다.
 <br>
-<br>
+
 <br>
 ✔️
 
