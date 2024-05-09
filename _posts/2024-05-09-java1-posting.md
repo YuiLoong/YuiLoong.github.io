@@ -142,9 +142,9 @@ ___
 <br>
 <br>
 
-![첨부2](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0507_2.png?raw=true)
+![첨부2](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0509_2.png?raw=true)
 <br>
-![첨부3](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0507_3.png?raw=true)
+![첨부3](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0509_3.png?raw=true)
 <br>
 ✔️
 <br>
