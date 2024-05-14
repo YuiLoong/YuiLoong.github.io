@@ -143,13 +143,10 @@ ___
 <br>
 <br>
 <br>
-
-![첨부2](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0509_2.png?raw=true)
-<br>
-![첨부3](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0509_3.png?raw=true)
-<br>
 ✔️
 <br>
+```js
+```
 <br>
 <br>
 ![첨부4](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0509_1.png?raw=true)
