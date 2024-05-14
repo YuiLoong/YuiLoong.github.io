@@ -146,7 +146,122 @@ ___
 ✔️
 <br>
 ```js
+// file: `MemberController.java`
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+
+@Entity
+public class Member {
+    @Id
+    @GeneratedValue
+    private Long id;
+    @Column
+    private String email;
+    @Column
+    private String password;
+
+    public Member(Long id, String email, String password) {
+        this.id = id;
+        this.email = email;
+        this.password = password;
+    }
+
+    @Override
+    public String toString() {
+        return "Member{" +
+                "id=" + id +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                '}';
+    }
+}
 ```
 <br>
+
+```js
+// file: `MemberForm.java`
+
+package com.example.demo.dto;
+
+import com.example.demo.entity.Article;
+import com.example.demo.entity.Member;
+
+public class MemberForm {
+    private String email;
+    private String password;
+
+    public MemberForm(String email, String password) {
+        this.email = email;
+        this.password = password;
+    }
+
+    @Override
+    public String toString() {
+        return "MemberForm{" +
+                "email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                '}';
+    }
+
+
+    public Member toEntity() {
+        return new Member(null, email, password);
+
+    }
+}
+```
 <br>
+
+```js
+// file: `Member.java`
+
+package com.example.demo.entity;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+
+@Entity
+public class Member {
+    @Id
+    @GeneratedValue
+    private Long id;
+    @Column
+    private String email;
+    @Column
+    private String password;
+
+    public Member(Long id, String email, String password) {
+        this.id = id;
+        this.email = email;
+        this.password = password;
+    }
+
+    @Override
+    public String toString() {
+        return "Member{" +
+                "id=" + id +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                '}';
+    }
+}
+```
+<br>
+```js
+// file: `MemberRepository.interface`
+
+package com.example.demo.repository;
+
+import com.example.demo.entity.Member;
+import org.springframework.data.repository.CrudRepository;
+
+public interface MemberRepository extends CrudRepository<Member, Long> {
+}
+```
+<br>
+
 ![첨부4](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0509_1.png?raw=true)
