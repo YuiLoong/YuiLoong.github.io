@@ -252,9 +252,11 @@ public class Member {
     }
 }
 ```
+
 <br>
+
 ```js
-// file: `MemberRepository.interface`
+// file: `MemberRepository.java`
 
 package com.example.demo.repository;
 
