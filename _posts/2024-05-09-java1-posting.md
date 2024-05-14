@@ -66,9 +66,12 @@ ___
 <br>
 
 **답**
-3번
 <br>
-해설: 확장자는 빼고 작성해야한다.
+㉠ @entity
+<br>
+㉡ crudRepository
+<br>
+㉢ @Autowired
 <br>
 <br>
 
