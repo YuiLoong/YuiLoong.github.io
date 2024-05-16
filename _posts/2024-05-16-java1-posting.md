@@ -82,9 +82,5 @@ public class ImgeController {
 {{>layouts/footer}}
 ```
 <br>
-ㄹ) 1번
-<br>
-ㅁ) 3번
-<br>
 <br>
 <br>
