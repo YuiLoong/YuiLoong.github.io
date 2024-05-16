@@ -3,7 +3,7 @@ categories: Java
 toc: true
 ---
 
-## 스프링부트 2장 과제(1)
+## 스프링부트 4장 실습(1)
 * this list will be replaced by the table of contents
 {:toc .large-only}
   <br> 
