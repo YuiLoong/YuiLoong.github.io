@@ -63,5 +63,68 @@ ___
 
 <br>
 
+## 문제2 && 문제 풀이2
+___
+**3장 셀프체크에서 만든 다음 코드를 롬복으로 리팩터링하기**
+<br>
+<br>
+<br>
 
+✔️
+<br>
 
+**답**
+<br>
+
+```js
+//file: dto/MemberForm.java
+
+@AllArgsConstructor
+@ToString
+public class MemberForm {
+    private String email;
+    private String password;
+    
+
+    public Member toEntity() {
+        return new Member(null, email, password);
+
+    }
+}
+```
+
+<br>
+<br>
+
+```js
+//file: controller/MemberController.java
+
+@Slf4j
+@Controller
+public class MemberController {
+    private static final Logger log = LoggerFactory.getLogger(MemberController.class);
+    @Autowired
+    private MemberRepository memberRepository;
+    @GetMapping("/signup")
+    public String newMemberForm(){
+        return "members/new";
+    }
+
+    @PostMapping("/join")
+    public String createMember(MemberForm form){
+        log.info(form.toString());
+//        System.out.println(form.toString());
+        //1.DTO를 엔티티로 변환
+        Member member = form.toEntity();
+        log.info(member.toString());
+        //System.out.println(member.toString());
+
+        //2. 리파지터리로 엔티티를 DB에 저장
+        Member saved = memberRepository.save(member);
+        log.info(saved.toString());
+        //System.out.println(saved.toString());
+        return "";
+    }
+}
+
+```
