@@ -34,11 +34,12 @@ ___
 ㉡ - findById() <br>
 <br>
 <br>
-<br>
 
 ## 문제2 && 문제 풀이2
 ___
-**3장 셀프체크에서 만든 다음 코드를 롬복으로 리팩터링하기**
+**2. 다음 ㉠에 들어갈 용어를 쓰세요.**
+<br>
+(  ㉠  )(이)란 JPA의 CrudRepository가 제공하는 메서드로, 특정 엔티티를 모두 가져와 Iterable 타입으로 반환합니다.
 <br>
 <br>
 <br>
@@ -49,55 +50,32 @@ ___
 **답**
 <br>
 
-```js
-//file: dto/MemberForm.java
+<br>
+<br>
 
-@AllArgsConstructor
-@ToString
-public class MemberForm {
-    private String email;
-    private String password;
-    
+## 문제3 && 문제 풀이3
+___
+**4장 셀프체크에서 만든 MemberController에서 회원 조회(특정회원 조회, 전체 회원 조회)가 되도록 구현하기**
+<br>
+수정이나 생성이 필요한 파일들
+<br>
 
-    public Member toEntity() {
-        return new Member(null, email, password);
+> 컨트롤러: controller/MemberController.java <br>
+> 리파지터리: repository/MemberRepository.java <br>
+> 뷰템플릿: templates/members/show.mustache, templates/members/index.mustache <br>
 
-    }
-}
-```
 
 <br>
 <br>
 
-```js
-//file: controller/MemberController.java
+✔️
+<br>
 
-@Slf4j
-@Controller
-public class MemberController {
-    private static final Logger log = LoggerFactory.getLogger(MemberController.class);
-    @Autowired
-    private MemberRepository memberRepository;
-    @GetMapping("/signup")
-    public String newMemberForm(){
-        return "members/new";
-    }
+**답**
+<br>
 
-    @PostMapping("/join")
-    public String createMember(MemberForm form){
-        log.info(form.toString());
-//        System.out.println(form.toString());
-        //1.DTO를 엔티티로 변환
-        Member member = form.toEntity();
-        log.info(member.toString());
-        //System.out.println(member.toString());
+<br>
+<br>
 
-        //2. 리파지터리로 엔티티를 DB에 저장
-        Member saved = memberRepository.save(member);
-        log.info(saved.toString());
-        //System.out.println(saved.toString());
-        return "";
-    }
-}
 
-```
+
