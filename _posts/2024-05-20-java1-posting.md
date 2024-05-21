@@ -74,6 +74,128 @@ ___
 **답**
 <br>
 
+```js
+
+//file: MemberController.java
+@Slf4j
+@Controller
+public class MemberController {
+    private static final Logger log = LoggerFactory.getLogger(MemberController.class);
+    @Autowired
+    private MemberRepository memberRepository;
+
+    @GetMapping("/signup")
+    public String newMemberForm() {
+        return "members/new";
+    }
+
+    @PostMapping("/join")
+    public String createMember(MemberForm form) {
+        log.info(form.toString());
+//        System.out.println(form.toString());
+        //1.DTO를 엔티티로 변환
+        Member member = form.toEntity();
+        log.info(member.toString());
+        //System.out.println(member.toString());
+
+        //2. 리파지터리로 엔티티를 DB에 저장
+        Member saved = memberRepository.save(member);
+        log.info(saved.toString());
+        //System.out.println(saved.toString());
+        return "";
+    }
+
+    @GetMapping("/members/{id}")
+    public String show(@PathVariable Long id, Model model) {
+
+        Member memberEntity = memberRepository.findById(id).orElse(null);
+
+        model.addAttribute("member", memberEntity);
+        return "members/show";
+    }
+
+    @GetMapping("/member")
+    public String index(Model model) {
+        List<Member> memberEntityList = (List<Member>) memberRepository.findAll();
+
+        model.addAttribute("memberList", memberEntityList);
+        return "members/index";
+    }
+    
+}
+```
+<br>
+
+```js
+
+//file: MemberRepository
+public interface MemberRepository extends CrudRepository<Member, Long> {
+    @Override
+    ArrayList<Member> findAll();
+}
+```
+<br>
+
+```js
+
+//file: show.mustache
+{{>layouts/header}}
+
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">Id</th>
+        <th scope="col">email</th>
+        <th scope="col">password</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#member}}
+        <tr>
+            <th scope="row">{{id}}</th>
+            <td>{{email}}</td>
+            <td>{{password}}</td>
+        </tr>
+    {{/member}}
+    </tbody>
+</table>
+
+{{>layouts/footer}}
+```
+
+<br>
+
+```js
+
+//file: index.mustache
+
+{{>layouts/header}}
+
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">Id</th>
+        <th scope="col">email</th>
+        <th scope="col">password</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#memberList}}
+        <tr>
+            <th scope="row">{{id}}</th>
+            <td>{{email}}</td>
+            <td>{{password}}</td>
+        </tr>
+    {{/memberList}}
+    </tbody>
+</table>
+
+
+{{>layouts/footer}}
+
+```
+
+<br>
 <br>
 <br>
 
