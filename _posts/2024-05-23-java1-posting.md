@@ -52,6 +52,47 @@ ___
 
 **답**
 <br>
-㉠ - findAll()
+
+```js
+//file: MemberController.java
+
+ Member saved = memberRepository.save(member);
+        log.info(saved.toString());
+        //System.out.println(saved.toString());
+        return "redirect:/members/"+ saved.getId();
+    }
+
+```
+<br>
+
+```js
+//file: index.mustache
+
+    {{/memberList}}
+    </tbody>
+</table>
+<a href="/signup">SignUP</a>
+```
+<br>
+
+```js
+//file: new.mustache
+
+  </div>
+    <button type="submit" class ="btn-primary">Submit</button>
+    <a href="/join">Back</a>
+</form>
+```
+
+<br>
+
+```js
+//file: show.mustache
+
+</table>
+<a href="/member">GO to Member List</a>
+
+```
+
 <br>
 <br>
