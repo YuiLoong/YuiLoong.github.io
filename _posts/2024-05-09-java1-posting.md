@@ -69,7 +69,7 @@ ___
 <br>
 ㉠ @entity
 <br>
-㉡ crudRepository
+㉡ CrudRepository
 <br>
 ㉢ @Autowired
 <br>
