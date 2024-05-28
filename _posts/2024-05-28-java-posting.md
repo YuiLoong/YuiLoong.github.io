@@ -31,8 +31,7 @@ ___
 
 **답**
 <br>
-㉠ - `<a>`  <br>
-㉡ - 리다이렉트 <br>
+1 -> 3 -> 4 -> 2
 <br>
 <br>
 
@@ -40,7 +39,14 @@ ___
 ___
 **3~5장 셀프체크에서 만든 <회원가입 페이지>에서 [Submit] 버튼을 클릭하면 <상세 페이지>로 이동하고,**
 <br>
-**<상세 페이지>에서 Go to member list를 클릭하면 <목록 페이지>로 이동하기를 구현하기**
+|     데이터 관리     |     SQL     |    HTTP       
+|:--------------------|:------------|:----------
+|  데이터 생성(Create) |    INSERT   |    ㉠        
+|         ㉡          | "b"               
+| let x = text.split(" ").length;       | 2
+| let x = text.replace("web", "HTML5"); | HTML5 Programing
+| let x = text.charAt(4);               | "P"
+
 <br>
 <br>
 <br>
