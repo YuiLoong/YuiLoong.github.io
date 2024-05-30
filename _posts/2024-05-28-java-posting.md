@@ -40,12 +40,11 @@ ___
 **3~5장 셀프체크에서 만든 <회원가입 페이지>에서 [Submit] 버튼을 클릭하면 <상세 페이지>로 이동하고,**
 <br>
 |     데이터 관리     |     SQL     |    HTTP       
-|:--------------------|:------------|:----------
-|  데이터 생성(Create) |    INSERT   |    ㉠        
-|         ㉡          | "b"               
-| let x = text.split(" ").length;       | 2
-| let x = text.replace("web", "HTML5"); | HTML5 Programing
-| let x = text.charAt(4);               | "P"
+|:--------------------|:-----------|:----------
+|  데이터 생성(Create) |   INSERT   |    ㉠        
+|         ㉡          |   SELECT   |    GET       
+| 데이터 수정(Update)  |     ㉢     |    PATCH(PUT)
+| 데이터 삭제(Delete)  |   DELETE   |    DELETE
 
 <br>
 <br>
