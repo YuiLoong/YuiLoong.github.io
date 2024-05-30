@@ -56,3 +56,7 @@ ___
 
 **답**
 <br>
+<br>
+㉠ : POST <br>
+㉡ : 데이터 조회(Read) <br>
+㉢ : UPDATE <br>
