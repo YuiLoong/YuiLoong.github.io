@@ -76,7 +76,7 @@ public class ImgeController {
 {{>layouts/header}}
 
 <div class = "bg-dark text-white p-5">
-    <img src={{randomImages}}>
+    //<img src={{randomImages}}> (포스팅할 때 코드가 먹혀서 주석처리로 일단 올림)
 </div>
 
 {{>layouts/footer}}
