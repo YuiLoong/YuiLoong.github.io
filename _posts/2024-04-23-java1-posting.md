@@ -78,7 +78,7 @@ xhr.onreadystatechange = function () {
 ```
 <br>
 
-![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0423_1.png?raw=true)
+![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0605_1.png?raw=true)
 
 
 <br>
