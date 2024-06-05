@@ -47,6 +47,43 @@ ___
 <br>
 <br>
 
+## 문제3 && 문제 풀이3
+___
+**3. [실습] JSON 자료를 가져와 표시하기 2** 
+<br>
+<br>
+<br>
+✔️
+<br>
+**[코드]**
+<br>
+```js
+let xhr = new XMLHttpRequest();
+xhr.open('GET', 'student.json', true);
+xhr.send();
+
+xhr.onreadystatechange = function () {
+  if (xhr.readyState === 4 && xhr.status === 200) {
+    let student = JSON.parse(xhr.responseText);
+    document.getElementById('result').innerHTML = `
+            <h1>${student.name}</h1>
+            <ul>
+              <li>전공 : ${student.major}</li>
+              <li>학년 : ${student.grade}</li>
+            </ul>
+        `;
+  }
+};
+
+```
+<br>
+
+![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0423_1.png?raw=true)
+
+
+<br>
+<br>
+
 ## 문제4 && 문제 풀이4
 ___
 **서버에 있는 JSON 자료를 가져와서 화면에 표시하려 합니다. JSON 자료에는 id를 비롯해 여러 개의 값이 담겨 있습니다.** <br>
