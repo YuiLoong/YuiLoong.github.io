@@ -31,7 +31,7 @@ ___
 
 **답**
 <br>
-1 -> 3 -> 4 -> 2
+4 -> 1 -> 5 -> 3 -> 2
 <br>
 <br>
 
@@ -40,17 +40,32 @@ ___
 **Talend API Tester로 다음 작업을 수행하고, 이를 통해 생성된 HTTP 요청 메시지를 복사해 적으시오.**
 <br>
 <br>
-
-> **오늘 할 일 생성: 10번 사용자의 오늘 할 일을 생성하되, title은 “맛집 탐방하기”로 설정하세요.**
-<br>
->> 
-
-<br>
-<br>
-<br>
-<br>
-
 ✔️
 <br>
 
-**답**
+> **1.오늘 할 일 생성: 10번 사용자의 오늘 할 일을 생성하되, title은 “맛집 탐방하기”로 설정하세요.** <br>
+> ![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0611_1.PNG?raw=true)
+
+<br>
+<br>
+
+> **2.오늘 할 일 조회: 10번 사용자의 오늘 할 일 전체를 조회하세요.** <br>
+> ![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0611_2.PNG?raw=true)
+
+<br>
+<br>
+
+> **3.오늘 할 일 수정: 10번 사용자의 오늘 할 일 중 id 200번의 title을 “멋지게 숨쉬기”로 수정하세요.** <br>
+> ![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0611_3.PNG?raw=true)
+
+<br>
+<br>
+
+> **4.오늘 할 일 삭제: 10번 사용자의 오늘 할 일 중 id 200번 데이터를 삭제하세요.** <br>
+> ![첨부1](https://github.com/YuiLoong/YuiLoong.github.io/blob/master/assets/img/0611_4.PNG?raw=true)
+
+<br>
+<br>
+
+
+
